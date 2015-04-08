@@ -211,7 +211,7 @@ Despite some (minor) performance issues (the IKVM-generated \tuprolog{} version 
 %
 This extra value spreads into several directions:
 \begin{itemize}
-  \item .NET objects can be accessed, in addition to Java objects, via       \textit{OOLibrary} -- the renovated version of JavaLibrary -- from \tuprolog{};
+  \item .NET objects can be accessed, in addition to Java objects, via \textit{OOLibrary} -- the renovated version of JavaLibrary -- from \tuprolog{};
 
   \item .NET applications can be developed (instead of Java applications, which obviously require the \tuprolog{} Java version) that exploit \tuprolog{} as a third-party library, with the only difference that a \texttt{dll} assembly is to be referenced by the (Visual Studio) project, instead of a JAR archive;
 
@@ -251,9 +251,9 @@ Conversely, the execution of .NET code (the implementation language selected is 
 
 \subsubsection{Motivation}
 
-Since \tuprolog{}.NET is automatically generated from the Java sources via IKVM, JavaLibrary is also available for free; however, since this library was designed for Java, it inherently supports Java concepts and constructs, but is obviously unaware of the features that are specific to .NET languages, such as properties, delegates, etc.
+Since \tuprolog{}.NET is automatically generated from the Java sources via IKVM, OOLibrary (formerly known as JavaLibrary) is also available for free; however, since this library was designed for Java, it inherently supports Java concepts and constructs, but is obviously unaware of the features that are specific to .NET languages, such as properties, delegates, etc.
 %
-So, while .NET objects could be loaded and exploited via JavaLibrary ``as is'' (thanks to the extended semantics of \texttt{Class.forName} discussed in Section \ref{ssec:ikvm-class-loading}), their support would be imperfect, for three main reasons:
+So, while .NET objects could be loaded and exploited via OOLibrary ``as is'' (thanks to the extended semantics of \texttt{Class.forName} discussed in Section \ref{ssec:ikvm-class-loading}), their support would be imperfect, for three main reasons:
 \begin{itemize}
   \item the lack of support for some .NET language constructs;
   \item the different Java naming convention for methods w.r.t. Java;
@@ -272,17 +272,17 @@ So, while .NET objects could be loaded and exploited via JavaLibrary ``as is'' (
 
 \noindent As the first line shows, a \texttt{Student} instance can be created via \texttt{java\_object/3} \textit{as if it were a Java class}, but only by means of its \texttt{\textit{AssemblyQualifiedName}}---possibly specifying also its version, culture and public key.
 Moreover, the method name must be quoted, since the .NET conventions require the first letter to be capitalized.
-Last but not least, access to properties -- that the translated JavaLibrary does not know  as such -- must be mediated by the get/set methods added by the .NET compiler, with a loss both of expressiveness (the \texttt{Obj.Property} notation is lost) and of transparency (the compiler transformations must be known to bypass the problem).
+Last but not least, access to properties -- that the translated OOLibrary does not know  as such -- must be mediated by the get/set methods added by the .NET compiler, with a loss both of expressiveness (the \texttt{Obj.Property} notation is lost) and of transparency (the compiler transformations must be known to bypass the problem).
 
-This is why the direct use of JavaLibrary is \textit{deprecated} (actually, disabled) in \tuprolog{}.NET, which provides a better alternative: \textit{OOLibrary}. This new library is therefore loaded by default in place of its Java counterpart. As shown in Figure \ref{fig:dotnet-oolibrary}, to be compared with Figure \ref{fig:gui-library-manager} on page \pageref{fig:gui-library-manager}, the Library Manager dialog here lists OOLibrary, instead of JavaLibrary, as its first item.
+This is why the direct use of OOLibrary is \textit{deprecated} (actually, disabled) in \tuprolog{}.NET, which provides a better alternative: \textit{OOLibrary}. This new library is therefore loaded by default in place of its Java counterpart. As shown in Figure \ref{fig:dotnet-oolibrary}, to be compared with Figure \ref{fig:gui-library-manager} on page \pageref{fig:gui-library-manager}, the Library Manager dialog here lists the .NET version of OOLibrary, instead of the Java version, as its first item.
 
 \begin{figure}
 \centering
   \includegraphics[width=8cm]{images/dotnet-oolibrary}
-  \caption{Library manager in tuProlog.NET: notice the OOLibrary loaded instead of JavaLibrary.}\label{fig:dotnet-oolibrary}
+  \caption{Library manager in tuProlog.NET: notice the .NET library version of OOLibrary loaded.}\label{fig:dotnet-oolibrary}
 \end{figure}
 
-OOLibrary extends JavaLibrary by enabling \tuprolog{}.NET to interact with both Java and .NET software components. In principle, any .NET language can be supported, although the current distribution includes the support only for the most widely used .NET languages (C\#, F\# and VB.NET), other than Java itself; however, the support for other .NET languages can be easily added, by defining further \textit{language conventions}.
+The .NET version of OOLibrary extends the underlying Java version by enabling \tuprolog{}.NET to interact with both Java and .NET software components. In principle, any .NET language can be supported, although the current distribution includes the support only for the most widely used .NET languages (C\#, F\# and VB.NET), other than Java itself; however, the support for other .NET languages can be easily added, by defining further \textit{language conventions}.
 
 \subsubsection{Language Conventions}
 
@@ -329,7 +329,7 @@ Currently, four conventions are included in the distribution:
 
 \subsubsection{OOLibrary: predicates}
 
-OOLibrary puts together the easy of use and immediateness of JavaLibrary with the convention-based inspiration of the former \textit{CLILibrary} (found in version 2.2): Table \ref{tab:dotnet-oolibrary-interface} lists its predicates.
+OOLibrary puts together the easy of use and immediateness of the Java version of OOLibrary with the convention-based inspiration of the former \textit{CLILibrary} (found in version 2.2): Table \ref{tab:dotnet-oolibrary-interface} lists its predicates.
 %
 \begin{table}
 {\small
@@ -350,11 +350,11 @@ public class OOLibrary {
   public bool unload_convention_1(Term convRef)
 }
 \end{verbatim}
-}\caption{The public interface of the \texttt{OOLibrary} class. In addition, the \texttt{$<-$/2}, (\texttt{$<-$},\texttt{returns})\texttt{/3} and \texttt{.} operators are defined for method calling and field/property access with the \texttt{get}/\texttt{set} pseudo-methods, exactly as in JavaLibrary.}
+}\caption{The public interface of the \texttt{OOLibrary} class. In addition, the \texttt{$<-$/2}, (\texttt{$<-$},\texttt{returns})\texttt{/3} and \texttt{.} operators are defined for method calling and field/property access with the \texttt{get}/\texttt{set} pseudo-methods, exactly as in Java's OOLibrary.}
 \label{tab:dotnet-oolibrary-interface}
 \end{table}
 
-\noindent These methods modify the names of the received entities according to the specified convention, then call the corresponding JavaLibrary methods.
+\noindent These methods modify the names of the received entities according to the specified convention, then call the corresponding methods of the underlying Java's OOLibrary.
 For instance, if the target object is written in C\#, OOLibrary:
 \begin{itemize}
   \item retrieves the associated convention (if any);
@@ -500,23 +500,23 @@ This issue is covered more in detail in Section \ref{sec:dotnet-putting-together
 \label{ssec:dotnet-oolibrary-exceptions}
 %-------------------------------------
 
-Since OOLibrary is rooted on JavaLibrary, exceptions raised during the execution of methods on .NET objects accessed from Prolog behave exactly as in the Java case (see Section \ref{ssec:java-exceptions-in-tuprolog})---that is, \textit{.NET exceptions are never perceived as such: rather, they are encapsulated in some Java exception.}
+Since the .NET OOLibrary is rooted on the underlying Java's OOLibrary, exceptions raised during the execution of methods on .NET objects accessed from Prolog behave exactly as in the Java case (see Section \ref{ssec:java-exceptions-in-tuprolog})---that is, \textit{.NET exceptions are never perceived as such: rather, they are encapsulated in some Java exception.}
 
 Accordingly, these exceptions are handled in \tuprolog{}.NET via the same \texttt{java\_catch/3} predicate defined in Section \ref{ssec:java-exceptions-in-tuprolog} for the Java version: syntax and use are identical to the Java case, too.
 
-For instance, let us suppose that the \texttt{Counter} class has been defined in .NET, and we wish to intercept the case that the class is not available at run time for loading. This means that the OOLibrary's \texttt{new\_object} predicate could fail to load the class, raising an exception. 
+For instance, let us suppose that the \texttt{Counter} class has been defined in .NET, and we wish to intercept the case that the class is not available at run time for loading. This means that the OOLibrary's \texttt{new\_object} predicate could fail to load the class, raising an exception.
 In a standard .NET environment, the exception raised would be a .NET \texttt{TypeNotFoundException}, but \textit{this is not the case here, because the mediation of IKVM encapsulates such events and re-throws them as Java exceptions.}
 As a result, a \texttt{java.lang.ClassNotFoundException} has to be matched against, as in the following example:
 
 \begin{verbatim}
 test:-
   java_catch( new_object('Counter',[], c),
-    [ ('java.lang.ClassNotFoundException'(Cause, Msg, _), 
+    [ ('java.lang.ClassNotFoundException'(Cause, Msg, _),
         write(Msg) )],
     write('+++') ).
 \end{verbatim}
 %
-This is why the predicate name remains \texttt{java\_catch}, as in JavaLibrary -- in fact, it captures Java exceptions only.
+This is why the predicate name remains \texttt{java\_catch}, as in the Java version of OOLibrary -- in fact, it captures Java exceptions only.
 
 Figure \ref{fig:dotnet-exceptions} shows the above examples and the corresponding output in the \tuprolog{} GUI.
 %
@@ -594,7 +594,7 @@ For instance, if the TestLibrary shown in Section \ref{tab:TestLibrary} on page 
 
 \subsection{Capturing exceptions raised in .NET libraries}
 
-Unlike the OOLibrary (and JavaLibrary) case, where the exceptions possibly raised during a call to some method call can be perceived and caught via the \texttt{java\_catch/3} (or any future renamed version) predicate (Section \ref{ssec:dotnet-oolibrary-exceptions}), the exceptions possibly raised inside a library (in this case, written in .NET) cannot be caught at all, since they have nothing to do with the OOLIbrary/JavaLibrary filter.
+Unlike the .NET (and Java's) OOLibrary, where the exceptions possibly raised during a call to some method call can be perceived and caught via the \texttt{java\_catch/3} (or any future renamed version) predicate (Section \ref{ssec:dotnet-oolibrary-exceptions}), the exceptions possibly raised inside a library (in this case, written in .NET) cannot be caught at all, since they have nothing to do with the OOLIbrary filter.
 So, if any such exception occurs inside a library, the corresponding predicate simply fails.
 
 \subsection{Capturing the .NET output in Prolog}

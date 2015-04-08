@@ -178,7 +178,7 @@ The subsequent area below contains six panes:
 \item the \textit{binding} and the \textit{all bindings} panes show the variable bindings in tabular form, for a single solution or for all solutions, respectively (see Figure \ref{fig:gui-bindings}); here, too, proper control buttons are provided to clear the bindings pane and export the tabular data in a convenient CSV format;
 
 \item the \textit{output} pane shows the output performed by the program via \texttt{write} and other console I/O predicates (Figure \ref{fig:gui-output}).
-    Please note that output performed by Java methods -- that is, methods invoked on Java objects via \classname{JavaLibrary} -- are \textit{not} captured and displayed in this view: for further information on this topic, refer to Section \ref{sec:java-library}.
+    Please note that output performed by Java methods -- that is, methods invoked on Java objects via \classname{OOLibrary} (formerly known as JavaLibrary) -- are \textit{not} captured and displayed in this view: for further information on this topic, refer to Section \ref{sec:java-library}.
     %
     Again, control buttons are provided to clear the output pane.
 
@@ -272,7 +272,7 @@ By default, the standard set of libraries is loaded into any newly-created engin
 \end{figure}
 
 This dialog displays the list of the currently loaded libraries---by default,
-\classname{BasicLibrary}, \classname{IOLibrary}, \classname{ISOLibrary}, \classname{JavaLibrary}.
+\classname{BasicLibrary}, \classname{IOLibrary}, \classname{ISOLibrary}, \classname{OOLibrary} (the latter was formerly known as \classname{JavaLibrary}).
 %
 Other libraries can be added by providing the fully qualified name of the library class in the textfield, and pressing the \guibutton{Add} button: the added library will be displayed with an initial \textit{Unloaded} status.
 The new library must be in the current class path for \tuprolog{} to find it; alternatively, the \textit{Browse..} button can be used to locate a library class anywhere in the file system (furhter information on class loading issues can be found in Section \ref{ssec:library-loading-issues}).
@@ -515,7 +515,7 @@ Finally, if the query performs an operation requiring an input from the standard
 \label{ssec:android-classloading-issues}
 %---------------------------------------------------
 
-In all \tuprolog{} versions until 2.8 (included), one limitation had always applied to the Android app: the lack of support for the dynamic loading of user-defined libraries (via Library Manager) and classes (via JavaLibrary--see Section \ref{sec:java-library}).
+In all \tuprolog{} versions until 2.8 (included), one limitation had always applied to the Android app: the lack of support for the dynamic loading of user-defined libraries (via Library Manager) and classes (via OOLibrary--see Section \ref{sec:java-library}).
 
 The underlying reason lies in the architectural differences between the Java SE and the Android platforms: although both platforms do load JAR files, the inner structure of such archives is different, because a Java SE archive includes the (zipped) \texttt{.class} files of each class, while an Android archive mandatorily includes \textit{one single \texttt{classes.dex} file} containing the Android-compiled version of all classes.
 As a result, ``standard'' (i.e., JavaSE) libraries and classes, normally found and loaded by the Java SE class loader, cannot be found ``as they are'' by the Android loader, because the latter expects a different format.

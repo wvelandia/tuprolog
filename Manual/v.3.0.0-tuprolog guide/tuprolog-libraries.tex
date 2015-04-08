@@ -41,11 +41,11 @@ The fundamental libraries, loaded by default, are the following:
 \item[IOLibrary] (class \texttt{alice.tuprolog.lib.IOLibrary}) |
     provides the classic Prolog I/O predicates, except for the ISO-I/O ones.
 
-\item[JavaLibrary] (class \texttt{alice.tuprolog.lib.JavaLibrary}) |
-    provides predicates and functors to support multi-paradigm programming
-    between Prolog and Java, enabling a complete yet easy access to the
-    object-oriented world of Java from \tuprolog{}: features include the
-    creation and access of both existing and new objects, classes,
+\item[OOLibrary] (class \texttt{alice.tuprolog.lib.OOLibrary}) |
+    formerly known as \textit{JavaLibrary}, provides predicates and functors 
+    to support multi-paradigm programming between Prolog and Java, enabling a 
+    complete yet easy access to the object-oriented world of Java from \tuprolog{}: 
+    features include the creation and access of both existing and new objects, classes,
     and resources.
     In the .NET version of \tuprolog{}, this library is replaced\footnote{%
     Actually, integrated: please see Chapter \ref{ch:mpp-in-dotnet} for details.} by \textbf{OOLibrary}, which extends the multi-paradigm programming approach to virtually any language supported by the .NET platform (Chapter \ref{ch:mpp-in-dotnet}.)
@@ -75,7 +75,7 @@ The fundamental libraries, loaded by default, are the following:
 %
 Among these, for instance, \texttt{RDFLibrary} (class \texttt{alice.tuprolog.lib.RDFLibrary}) provides predicates and functors to handle RDF documents, etc.
 
-The next Sections present the predicates, functors, operators and flag of each library, as well as the dependencies from other libraries, \textit{except for JavaLibrary}, which is discussed in detail in the context of multi-paradigm programming (Chapter \ref{ch:mpp-in-java}, or Chapter \ref{ch:mpp-in-dotnet} for its counterpart in .NET).
+The next Sections present the predicates, functors, operators and flag of each library, as well as the dependencies from other libraries, \textit{except for OOLibrary}, which is discussed in detail in the context of multi-paradigm programming (Chapter \ref{ch:mpp-in-java}, or Chapter \ref{ch:mpp-in-dotnet} for its counterpart in .NET).
 %
 Throughout this chapter, \texttt{string} means a single-quoted or double-quoted string, as detailed in Chapter \ref{ch:engine}, while \texttt{expr} means an evaluable expression---that is, a term that can be interpreted as a value by some library functors.
 
@@ -561,8 +561,8 @@ demonstration process.
 \item \bti{quicksort/3}\\
     \noindent\bt{quicksort(List, ComparisonPredicate, SortedList)} is true iff\\
     \bt{SortedList} contains the same elements as \bt{List}, but sorted according to the criterion defined by \bt{ComparisonPredicate}, which can be
-    one of the following: \verb|'=:='/2| (expression equality), \verb|'=\\='/2| (expression inequality), \verb|'>'/2| (greater than), \verb|'<'/2| (less than), 
-    \verb|'>='/2| (greater than or equals to), \verb|'=<'/2| (equals to or less than), \verb|'=='/2| (term equality), \verb|'\\=='/2| (term inequality), 
+    one of the following: \verb|'=:='/2| (expression equality), \verb|'=\\='/2| (expression inequality), \verb|'>'/2| (greater than), \verb|'<'/2| (less than),
+    \verb|'>='/2| (greater than or equals to), \verb|'=<'/2| (equals to or less than), \verb|'=='/2| (term equality), \verb|'\\=='/2| (term inequality),
     \verb|'@>'/2| (term greater than), \verb|'@<'/2| (term less than), \verb|'@>='/2| (term greater than or equals to), \verb|'@=<'/2| (term equals to or less than).
 
     \template{quicksort(@list, @pred, -list)}
