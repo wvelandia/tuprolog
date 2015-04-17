@@ -19,10 +19,38 @@
 \def\UrlBreaks{\do\/\do-}
 %\usepackage{wrapfig}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\usepackage{float}
-%\floatstyle{ruled}
-%\newfloat{program}{thp}{lop}
-%\floatname{program}{Program}
+\usepackage[usenames,dvipsnames,svgnames,table]{xcolor}
+\usepackage{listings}
+\lstloadlanguages{Prolog,Java}
+\lstset{language=Prolog,
+	basicstyle=\scriptsize\ttfamily,
+	backgroundcolor=\color{WhiteSmoke},
+	frame=single,
+	tabsize=2,
+	sensitive=true,
+	showspaces=false, showtabs=false, showstringspaces=false,
+	commentstyle=\color{SkyBlue},
+	stringstyle=\color{red},
+%	keywordstyle=\color{RoyalBlue},
+%	morekeywords={<-, returns}
+}
+\definecolor{armygreen}{rgb}{0.29, 0.33, 0.13}
+\definecolor{camouflagegreen}{rgb}{0.47, 0.53, 0.42}
+\lstdefinelanguage{tuProlog}[]{Prolog}{
+	alsoletter={<-},
+	emph={returns,<-,java_object,java_class,java_array_set,class,new_object,load_convention,},
+	emphstyle=\color{RoyalBlue}
+}
+\lstset{language=Java,
+	basicstyle=\scriptsize\ttfamily,
+%	numbers=left,
+	tabsize=2,
+	sensitive=true,
+	showspaces=false, showtabs=false, showstringspaces=false,
+%	numbersep=5pt,
+	commentstyle=\color{SkyBlue},
+%	keywordstyle=\color{RoyalBlue}
+}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \newcommand\xa[1]{\appendixname~\ref{app:#1}}

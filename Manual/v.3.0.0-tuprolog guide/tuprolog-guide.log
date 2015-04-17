@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.26)  8 APR 2015 15:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9) (preloaded format=pdflatex 2015.1.26)  17 APR 2015 20:39
 entering extended mode
 **"E:/Home/Technologies/tuProlog/repo-google/Manual/v.3.0.0-tuprolog guide/tupr
 olog-guide.tex"
@@ -207,7 +207,78 @@ Package: caption3 2013/02/03 v1.5-62 caption3 kernel (AR)
 )
 \c@ContinuedFloat=\count102
 Package caption Info: hyperref package is loaded.
-) (tuprolog-guide.aux (what-is-tuprolog.aux) (installing-tuprolog.aux)
+)
+("C:\Users\Enrico Denti\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Package option `usenames' ignored on input line 216.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Users\Enrico Denti\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.
+sty"
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen116
+\extrarowheight=\dimen117
+\NC@list=\toks15
+\extratabsurround=\skip44
+\backup@length=\skip45
+)
+\everycr=\toks16
+\minrowclearance=\skip46
+)
+LaTeX Info: Redefining \color on input line 702.
+\rownum=\count103
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 2014/10/14 v3.0j Driver-dependent file (DPC,SPQR)
+)
+("C:\Users\Enrico Denti\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\svgnam.def"
+File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
+)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count104
+\lst@gtempboxa=\box27
+\lst@token=\toks17
+\lst@length=\count105
+\lst@currlwidth=\dimen118
+\lst@column=\count106
+\lst@pos=\count107
+\lst@lostspace=\dimen119
+\lst@width=\dimen120
+\lst@newlines=\count108
+\lst@lineno=\count109
+\lst@maxwidth=\dimen121
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count110
+\lst@skipnumbers=\count111
+\lst@framebox=\box28
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2014/09/06 1.5e listings language file
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
+File: lstlang2.sty 2014/09/06 1.5e listings language file
+)
+(tuprolog-guide.aux (what-is-tuprolog.aux) (installing-tuprolog.aux)
 (getting-started.aux) (tuprolog-basics.aux) (tuprolog-libraries.aux)
 (exceptions.aux) (mpp-in-java.aux
 
@@ -220,22 +291,22 @@ LaTeX Warning: Label `ssec:java-api-types' multiply defined.
 LaTeX Warning: Label `tab:pj-example2' multiply defined.
 
 ) (mpp-in-dotnet.aux) (mpp-in-android.aux) (version-history.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
-LaTeX Font Info:    ... okay on input line 100.
-\AtBeginShipoutBox=\box27
-Package hyperref Info: Link coloring OFF on input line 100.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+\AtBeginShipoutBox=\box29
+Package hyperref Info: Link coloring OFF on input line 128.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -243,11 +314,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count103
+\c@section@level=\count112
 )
-LaTeX Info: Redefining \ref on input line 100.
-LaTeX Info: Redefining \pageref on input line 100.
-LaTeX Info: Redefining \nameref on input line 100.
+LaTeX Info: Redefining \ref on input line 128.
+LaTeX Info: Redefining \pageref on input line 128.
+LaTeX Info: Redefining \nameref on input line 128.
 
 (tuprolog-guide.out) (tuprolog-guide.out)
 \@outlinefile=\write4
@@ -255,30 +326,32 @@ LaTeX Info: Redefining \nameref on input line 100.
 ("C:\Users\Enrico Denti\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count104
-\scratchdimen=\dimen116
-\scratchbox=\box28
-\nofMPsegments=\count105
-\nofMParguments=\count106
-\everyMPshowfont=\toks15
-\MPscratchCnt=\count107
-\MPscratchDim=\dimen117
-\MPnumerator=\count108
-\everyMPtoPDFconversion=\toks16
+\scratchcounter=\count113
+\scratchdimen=\dimen122
+\scratchbox=\box30
+\nofMPsegments=\count114
+\nofMParguments=\count115
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count116
+\MPscratchDim=\dimen123
+\MPnumerator=\count117
+\everyMPtoPDFconversion=\toks19
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
- <images/logo.png, id=695, 182.6825pt x 199.74625pt>
+\c@lstlisting=\count118
+ <images/logo.png, id=715, 182.6825pt x 199.74625pt>
 File: images/logo.png Graphic file (type png)
  <use images/logo.png>
-Package pdftex.def Info: images/logo.png used on input line 102.
+Package pdftex.def Info: images/logo.png used on input line 130.
 (pdftex.def)             Requested size: 142.26378pt x 155.56065pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 105.
+(Font)              <12> on input line 133.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 105.
+(Font)              <8> on input line 133.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 105.
+(Font)              <6> on input line 133.
 
 [1
 
@@ -290,7 +363,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 ...and flag management}{54}{subsection.4.5.4}
+l.28 ...and flag management}{55}{subsection.4.5.4}
                                                    [1
 
 ] [2]
@@ -300,21 +373,14 @@ Overfull \hbox (0.49904pt too wide) in paragraph at lines 68--68
  []
 
 
-Overfull \hbox (7.647pt too wide) in paragraph at lines 94--94
- [][] [][]\OT1/cmr/m/n/10.95 Object cre-ation, class com-pi-la-tion and method 
-
+Overfull \hbox (6.00447pt too wide) in paragraph at lines 97--97
+ [][] [][]\OT1/cmr/m/n/10.95 Object cre-ation, method in-vo-ca-tion and lamb- 
  []
 
-[3] [4])
+[3] [4] [5])
 \tf@toc=\write5
- [5] (what-is-tuprolog.tex
+ [6] (what-is-tuprolog.tex
 Chapter 1.
-
-Overfull \hbox (20.36089pt too wide) in paragraph at lines 8--10
-\OT1/cmr/m/n/10.95 ence plat-form, [] is cur-rently avail-able for sev-eral pla
-t-forms/environments: 
- []
-
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -331,10 +397,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 28.
-[6
+[7
 
 
-] [7]) [8] (installing-tuprolog.tex
+] [8]) [9] (installing-tuprolog.tex
 Chapter 2.
 
 Overfull \hbox (1.5634pt too wide) in paragraph at lines 6--8
@@ -342,7 +408,7 @@ Overfull \hbox (1.5634pt too wide) in paragraph at lines 6--8
 on the plat-form of choice.
  []
 
-[9
+[10
 
 
 
@@ -352,12 +418,12 @@ Overfull \hbox (33.19284pt too wide) in paragraph at lines 38--40
 look into the \OT1/cmtt/m/n/10.95 build/archives
  []
 
-[10] [11]
+[11] [12]
 
-LaTeX Warning: Reference `fig:tuPrologPluginInstall-4' on page 12 undefined on 
+LaTeX Warning: Reference `fig:tuPrologPluginInstall-4' on page 13 undefined on 
 input line 125.
 
-[12] <images/tuPrologPluginInstall-1.png, id=984, 303.39764pt x 132.94952pt>
+[13] <images/tuPrologPluginInstall-1.png, id=1013, 303.39764pt x 132.94952pt>
 File: images/tuPrologPluginInstall-1.png Graphic file (type png)
 
 <use images/tuPrologPluginInstall-1.png>
@@ -365,7 +431,7 @@ Package pdftex.def Info: images/tuPrologPluginInstall-1.png used on input line
 137.
 (pdftex.def)             Requested size: 301.1261pt x 131.96326pt.
 
-<images/tuPrologPluginInstall-2.png, id=985, 652.47537pt x 320.44246pt>
+<images/tuPrologPluginInstall-2.png, id=1014, 652.47537pt x 320.44246pt>
 File: images/tuPrologPluginInstall-2.png Graphic file (type png)
 
 <use images/tuPrologPluginInstall-2.png>
@@ -373,7 +439,7 @@ Package pdftex.def Info: images/tuPrologPluginInstall-2.png used on input line
 138.
 (pdftex.def)             Requested size: 301.1261pt x 147.88937pt.
 
-<images/tuPrologPluginInstall-3.png, id=986, 537.25246pt x 239.99094pt>
+<images/tuPrologPluginInstall-3.png, id=1015, 537.25246pt x 239.99094pt>
 File: images/tuPrologPluginInstall-3.png Graphic file (type png)
 
 <use images/tuPrologPluginInstall-3.png>
@@ -381,29 +447,29 @@ Package pdftex.def Info: images/tuPrologPluginInstall-3.png used on input line
 144.
 (pdftex.def)             Requested size: 301.1261pt x 134.51118pt.
 
-<images/tuPrologPluginInstall-4.png, id=987, 600.65915pt x 522.25302pt>
+<images/tuPrologPluginInstall-4.png, id=1016, 600.65915pt x 522.25302pt>
 File: images/tuPrologPluginInstall-4.png Graphic file (type png)
 
 <use images/tuPrologPluginInstall-4.png>
 Package pdftex.def Info: images/tuPrologPluginInstall-4.png used on input line 
 145.
 (pdftex.def)             Requested size: 301.1261pt x 261.81917pt.
-) [13 <./images/tuPrologPluginInstall-1.png> <./images/tuPrologPluginInstall-2.
-png>] [14 <./images/tuPrologPluginInstall-3.png> <./images/tuPrologPluginInstal
+) [14 <./images/tuPrologPluginInstall-1.png> <./images/tuPrologPluginInstall-2.
+png>] [15 <./images/tuPrologPluginInstall-3.png> <./images/tuPrologPluginInstal
 l-4.png>] (getting-started.tex
 Chapter 3.
-[15
+[16
 
 
 
-] <images/tuprologIDE.png, id=1007, 351.11176pt x 374.5995pt>
+] <images/tuprologIDE.png, id=1036, 351.11176pt x 374.5995pt>
 File: images/tuprologIDE.png Graphic file (type png)
 
 <use images/tuprologIDE.png>
 Package pdftex.def Info: images/tuprologIDE.png used on input line 58.
 (pdftex.def)             Requested size: 301.1261pt x 321.28047pt.
 
-<images/tuprologCUI.png, id=1008, 507.69675pt x 198.14024pt>
+<images/tuprologCUI.png, id=1037, 507.69675pt x 198.14024pt>
 File: images/tuprologCUI.png Graphic file (type png)
 
 <use images/tuprologCUI.png>
@@ -418,103 +484,103 @@ LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbraceleft' on input line 68.
 
-[16] [17 <./images/tuprologIDE.png> <./images/tuprologCUI.png>]
-<images/tuprologAgent.png, id=1022, 555.87675pt x 83.71275pt>
+[17] [18 <./images/tuprologIDE.png> <./images/tuprologCUI.png>]
+<images/tuprologAgent.png, id=1052, 555.87675pt x 83.71275pt>
 File: images/tuprologAgent.png Graphic file (type png)
 
 <use images/tuprologAgent.png>
 Package pdftex.def Info: images/tuprologAgent.png used on input line 89.
 (pdftex.def)             Requested size: 301.1261pt x 45.34726pt.
 
-<images/syntaxErrorFound.png, id=1023, 352.31625pt x 406.51875pt>
+<images/syntaxErrorFound.png, id=1053, 352.31625pt x 406.51875pt>
 File: images/syntaxErrorFound.png Graphic file (type png)
 
 <use images/syntaxErrorFound.png>
 Package pdftex.def Info: images/syntaxErrorFound.png used on input line 106.
 (pdftex.def)             Requested size: 199.16928pt x 229.80757pt.
 
-<images/setTheorySucceeded.png, id=1024, 352.31625pt x 406.51875pt>
+<images/setTheorySucceeded.png, id=1054, 352.31625pt x 406.51875pt>
 File: images/setTheorySucceeded.png Graphic file (type png)
 
 <use images/setTheorySucceeded.png>
 Package pdftex.def Info: images/setTheorySucceeded.png used on input line 113.
 (pdftex.def)             Requested size: 199.16928pt x 229.80757pt.
- [18 <./images/tuprologAgent.png> <./images/syntaxErrorFound.png>] [19 <./image
+ [19 <./images/tuprologAgent.png> <./images/syntaxErrorFound.png>] [20 <./image
 s/setTheorySucceeded.png>]
-<images/gui-solutions.png, id=1041, 351.714pt x 384.83775pt>
+<images/gui-solutions.png, id=1070, 351.714pt x 384.83775pt>
 File: images/gui-solutions.png Graphic file (type png)
 
 <use images/gui-solutions.png>
 Package pdftex.def Info: images/gui-solutions.png used on input line 154.
 (pdftex.def)             Requested size: 199.16928pt x 217.92699pt.
 
-<images/gui-bindings.png, id=1042, 351.714pt x 384.83775pt>
+<images/gui-bindings.png, id=1071, 351.714pt x 384.83775pt>
 File: images/gui-bindings.png Graphic file (type png)
 
 <use images/gui-bindings.png>
 Package pdftex.def Info: images/gui-bindings.png used on input line 163.
 (pdftex.def)             Requested size: 199.16928pt x 217.92699pt.
- [20] [21 <./images/gui-solutions.png> <./images/gui-bindings.png>] <images/gui
--output.png, id=1062, 351.714pt x 384.83775pt>
+ [21] [22 <./images/gui-solutions.png> <./images/gui-bindings.png>] <images/gui
+-output.png, id=1091, 351.714pt x 384.83775pt>
 File: images/gui-output.png Graphic file (type png)
 
 <use images/gui-output.png>
 Package pdftex.def Info: images/gui-output.png used on input line 199.
 (pdftex.def)             Requested size: 199.16928pt x 217.92699pt.
 
-<images/gui-exceptions.png, id=1063, 351.714pt x 384.83775pt>
+<images/gui-exceptions.png, id=1092, 351.714pt x 384.83775pt>
 File: images/gui-exceptions.png Graphic file (type png)
 
 <use images/gui-exceptions.png>
 Package pdftex.def Info: images/gui-exceptions.png used on input line 208.
 (pdftex.def)             Requested size: 199.16928pt x 217.92699pt.
- [22 <./images/gui-output.png>]
-<images/gui-debug.png, id=1072, 398.1668pt x 434.30179pt>
+ [23 <./images/gui-output.png>]
+<images/gui-debug.png, id=1101, 398.1668pt x 434.30179pt>
 File: images/gui-debug.png Graphic file (type png)
 
 <use images/gui-debug.png>
 Package pdftex.def Info: images/gui-debug.png used on input line 236.
 (pdftex.def)             Requested size: 199.16928pt x 217.24976pt.
 
-<images/gui-spyframe1.png, id=1076, 572.70566pt x 438.39255pt>
+<images/gui-spyframe1.png, id=1105, 572.70566pt x 438.39255pt>
 File: images/gui-spyframe1.png Graphic file (type png)
 
 <use images/gui-spyframe1.png>
 Package pdftex.def Info: images/gui-spyframe1.png used on input line 250.
 (pdftex.def)             Requested size: 199.16928pt x 152.45634pt.
 
-<images/gui-spyframe2.png, id=1077, 1120.86679pt x 552.25189pt>
+<images/gui-spyframe2.png, id=1106, 1120.86679pt x 552.25189pt>
 File: images/gui-spyframe2.png Graphic file (type png)
 
 <use images/gui-spyframe2.png>
 Package pdftex.def Info: images/gui-spyframe2.png used on input line 251.
 (pdftex.def)             Requested size: 199.16928pt x 98.12862pt.
- [23 <./images/gui-exceptions.png>] [24 <./images/gui-debug.png> <./images/gui-
+ [24 <./images/gui-exceptions.png>] [25 <./images/gui-debug.png> <./images/gui-
 spyframe1.png> <./images/gui-spyframe2.png>]
-<images/gui-library-manager.png, id=1095, 269.30801pt x 265.89906pt>
+<images/gui-library-manager.png, id=1124, 269.30801pt x 265.89906pt>
 File: images/gui-library-manager.png Graphic file (type png)
 
 <use images/gui-library-manager.png>
 Package pdftex.def Info: images/gui-library-manager.png used on input line 269.
 
 (pdftex.def)             Requested size: 199.16928pt x 196.65266pt.
- [25 <./images/gui-library-manager.png>]
-<images/gui-config.png, id=1104, 337.26pt x 251.7405pt>
+ [26 <./images/gui-library-manager.png>]
+<images/gui-config.png, id=1133, 337.26pt x 251.7405pt>
 File: images/gui-config.png Graphic file (type png)
 
 <use images/gui-config.png>
 Package pdftex.def Info: images/gui-config.png used on input line 292.
 (pdftex.def)             Requested size: 199.16928pt x 148.66772pt.
 
-<images/gui-InputFromConsole.png, id=1107, 1212.22697pt x 462.25528pt>
+<images/gui-InputFromConsole.png, id=1136, 1212.22697pt x 462.25528pt>
 File: images/gui-InputFromConsole.png Graphic file (type png)
 
 <use images/gui-InputFromConsole.png>
 Package pdftex.def Info: images/gui-InputFromConsole.png used on input line 309
 .
 (pdftex.def)             Requested size: 298.75394pt x 113.92007pt.
- [26 <./images/gui-config.png>]
-<images/tuprologPluginGUI.png, id=1115, 745.5855pt x 434.8245pt>
+ [27 <./images/gui-config.png>]
+<images/tuprologPluginGUI.png, id=1144, 745.5855pt x 434.8245pt>
 File: images/tuprologPluginGUI.png Graphic file (type png)
 
 <use images/tuprologPluginGUI.png>
@@ -527,173 +593,173 @@ Overfull \hbox (6.3988pt too wide) in paragraph at lines 337--338
 's con-text menu,
  []
 
-[27 <./images/gui-InputFromConsole.png>]
-<images/plugin1.png, id=1126, 277.035pt x 179.4705pt>
+[28 <./images/gui-InputFromConsole.png>]
+<images/plugin1.png, id=1155, 277.035pt x 179.4705pt>
 File: images/plugin1.png Graphic file (type png)
  <use images/plugin1.png>
 Package pdftex.def Info: images/plugin1.png used on input line 346.
 (pdftex.def)             Requested size: 200.75073pt x 130.05115pt.
 
-<images/plugin2.png, id=1127, 369.17924pt x 314.3745pt>
+<images/plugin2.png, id=1156, 369.17924pt x 314.3745pt>
 File: images/plugin2.png Graphic file (type png)
 
 <use images/plugin2.png>
 Package pdftex.def Info: images/plugin2.png used on input line 352.
 (pdftex.def)             Requested size: 200.75073pt x 170.94934pt.
 
-<images/plugin3.png, id=1128, 369.17924pt x 268.00125pt>
+<images/plugin3.png, id=1157, 369.17924pt x 268.00125pt>
 File: images/plugin3.png Graphic file (type png)
 
 <use images/plugin3.png>
 Package pdftex.def Info: images/plugin3.png used on input line 358.
 (pdftex.def)             Requested size: 200.75073pt x 145.73267pt.
- <images/plugin4.png, id=1129, 219.219pt x 317.988pt>
+ <images/plugin4.png, id=1158, 219.219pt x 317.988pt>
 File: images/plugin4.png Graphic file (type png)
 
 <use images/plugin4.png>
 Package pdftex.def Info: images/plugin4.png used on input line 364.
 (pdftex.def)             Requested size: 200.75073pt x 291.21817pt.
- <images/plugin5.png, id=1130, 674.52pt x 507.0945pt>
+ <images/plugin5.png, id=1159, 674.52pt x 507.0945pt>
 File: images/plugin5.png Graphic file (type png)
 
 <use images/plugin5.png>
 Package pdftex.def Info: images/plugin5.png used on input line 370.
 (pdftex.def)             Requested size: 200.75073pt x 150.9147pt.
- <images/plugin6.png, id=1131, 687.7695pt x 289.08pt>
+ <images/plugin6.png, id=1160, 687.7695pt x 289.08pt>
 File: images/plugin6.png Graphic file (type png)
 
 <use images/plugin6.png>
 Package pdftex.def Info: images/plugin6.png used on input line 376.
 (pdftex.def)             Requested size: 200.75073pt x 84.378pt.
- [28 <./images/tuprologPluginGUI.png> <./images/plugin1.png>] [29 <./images/plu
-gin2.png> <./images/plugin3.png>] [30 <./images/plugin4.png> <./images/plugin5.
+ [29 <./images/tuprologPluginGUI.png> <./images/plugin1.png>] [30 <./images/plu
+gin2.png> <./images/plugin3.png>] [31 <./images/plugin4.png> <./images/plugin5.
 png>]
-<images/plugin7.png, id=1154, 674.52pt x 507.0945pt>
+<images/plugin7.png, id=1183, 674.52pt x 507.0945pt>
 File: images/plugin7.png Graphic file (type png)
  <use images/plugin7.png>
 Package pdftex.def Info: images/plugin7.png used on input line 388.
 (pdftex.def)             Requested size: 113.81102pt x 85.55496pt.
 
-<images/plugin8.png, id=1155, 186.6975pt x 96.36pt>
+<images/plugin8.png, id=1184, 186.6975pt x 96.36pt>
 File: images/plugin8.png Graphic file (type png)
  <use images/plugin8.png>
 Package pdftex.def Info: images/plugin8.png used on input line 394.
 (pdftex.def)             Requested size: 200.75073pt x 103.6173pt.
 
-<images/plugin9.png, id=1156, 99.37125pt x 167.4255pt>
+<images/plugin9.png, id=1185, 99.37125pt x 167.4255pt>
 File: images/plugin9.png Graphic file (type png)
 
 <use images/plugin9.png>
 Package pdftex.def Info: images/plugin9.png used on input line 400.
 (pdftex.def)             Requested size: 200.75073pt x 338.27345pt.
 
-<images/plugin10.png, id=1157, 231.264pt x 271.0125pt>
+<images/plugin10.png, id=1186, 231.264pt x 271.0125pt>
 File: images/plugin10.png Graphic file (type png)
 
 <use images/plugin10.png>
 Package pdftex.def Info: images/plugin10.png used on input line 406.
 (pdftex.def)             Requested size: 200.75073pt x 235.26617pt.
- [31 <./images/plugin6.png> <./images/plugin7.png>]
-[32 <./images/plugin8.png> <./images/plugin9.png>]
-<images/plugin11.png, id=1175, 274.02374pt x 87.32625pt>
+ [32 <./images/plugin6.png> <./images/plugin7.png>]
+[33 <./images/plugin8.png> <./images/plugin9.png>]
+<images/plugin11.png, id=1204, 274.02374pt x 87.32625pt>
 File: images/plugin11.png Graphic file (type png)
 
 <use images/plugin11.png>
 Package pdftex.def Info: images/plugin11.png used on input line 424.
 (pdftex.def)             Requested size: 200.75073pt x 63.9768pt.
- [33 <./images/plugin10.png> <./images/plugin11.png>]
-<images/android1.png, id=1188, 289.08pt x 284.86424pt>
+ [34 <./images/plugin10.png> <./images/plugin11.png>]
+<images/android1.png, id=1217, 289.08pt x 284.86424pt>
 File: images/android1.png Graphic file (type png)
 
 <use images/android1.png>
 Package pdftex.def Info: images/android1.png used on input line 463.
 (pdftex.def)             Requested size: 200.75073pt x 197.82141pt.
 
-<images/android2.png, id=1189, 289.08pt x 164.41425pt>
+<images/android2.png, id=1218, 289.08pt x 164.41425pt>
 File: images/android2.png Graphic file (type png)
 
 <use images/android2.png>
 Package pdftex.def Info: images/android2.png used on input line 464.
 (pdftex.def)             Requested size: 200.75073pt x 114.17598pt.
- [34] [35 <./images/android1.png> <./images/android2.png>] <images/android3.png
-, id=1202, 289.08pt x 271.0125pt>
+ [35] [36 <./images/android1.png> <./images/android2.png>] <images/android3.png
+, id=1232, 289.08pt x 271.0125pt>
 File: images/android3.png Graphic file (type png)
 
 <use images/android3.png>
 Package pdftex.def Info: images/android3.png used on input line 476.
 (pdftex.def)             Requested size: 150.56305pt x 141.1506pt.
- <images/android4.png, id=1203, 289.08pt x 216.81pt>
+ <images/android4.png, id=1233, 289.08pt x 216.81pt>
 File: images/android4.png Graphic file (type png)
 
 <use images/android4.png>
 Package pdftex.def Info: images/android4.png used on input line 477.
 (pdftex.def)             Requested size: 150.56305pt x 112.92049pt.
- <images/android6.png, id=1204, 289.08pt x 187.902pt>
+ <images/android6.png, id=1234, 289.08pt x 187.902pt>
 File: images/android6.png Graphic file (type png)
 
 <use images/android6.png>
 Package pdftex.def Info: images/android6.png used on input line 483.
 (pdftex.def)             Requested size: 150.56305pt x 97.86443pt.
 
-<images/android5.png, id=1205, 289.08pt x 202.95825pt>
+<images/android5.png, id=1235, 289.08pt x 202.95825pt>
 File: images/android5.png Graphic file (type png)
 
 <use images/android5.png>
 Package pdftex.def Info: images/android5.png used on input line 484.
 (pdftex.def)             Requested size: 150.56305pt x 105.70612pt.
- <images/android7.png, id=1206, 289.08pt x 481.8pt>
+ <images/android7.png, id=1236, 289.08pt x 481.8pt>
 File: images/android7.png Graphic file (type png)
 
 <use images/android7.png>
 Package pdftex.def Info: images/android7.png used on input line 490.
 (pdftex.def)             Requested size: 150.56305pt x 250.93442pt.
 
-<images/android8.png, id=1207, 289.08pt x 357.13425pt>
+<images/android8.png, id=1237, 289.08pt x 357.13425pt>
 File: images/android8.png Graphic file (type png)
 
 <use images/android8.png>
 Package pdftex.def Info: images/android8.png used on input line 491.
 (pdftex.def)             Requested size: 150.56305pt x 186.00514pt.
- [36 <./images/android3.png> <./images/android4.png> <./images/android6.png> <.
-/images/android5.png>] [37 <./images/android7.png> <./images/android8.png>]
+ [37 <./images/android3.png> <./images/android4.png> <./images/android6.png> <.
+/images/android5.png>] [38 <./images/android7.png> <./images/android8.png>]
 
-LaTeX Warning: Reference `fig:android78' on page 38 undefined on input line 501
+LaTeX Warning: Reference `fig:android78' on page 39 undefined on input line 501
 .
 
-<images/android9.png, id=1225, 170.44812pt x 267.26263pt>
+<images/android9.png, id=1254, 170.44812pt x 267.26263pt>
 File: images/android9.png Graphic file (type png)
 
 <use images/android9.png>
 Package pdftex.def Info: images/android9.png used on input line 509.
 (pdftex.def)             Requested size: 150.56305pt x 236.09308pt.
- [38 <./images/android9.png>]
+ [39 <./images/android9.png>]
 Overfull \hbox (1.97903pt too wide) in paragraph at lines 520--522
 \OT1/cmr/m/n/10.95 Android-compiled ver-sion of all classes. As a re-sult, ``st
 an-dard'' (i.e., JavaSE)
  []
 
-<images/android9a.png, id=1234, 257.03575pt x 209.99208pt>
+<images/android9a.png, id=1263, 257.03575pt x 209.99208pt>
 File: images/android9a.png Graphic file (type png)
 
 <use images/android9a.png>
 Package pdftex.def Info: images/android9a.png used on input line 546.
 (pdftex.def)             Requested size: 250.93842pt x 205.01219pt.
- [39]
-<images/android9b.png, id=1243, 209.31029pt x 349.75952pt>
+ [40]
+<images/android9b.png, id=1272, 209.31029pt x 349.75952pt>
 File: images/android9b.png Graphic file (type png)
 
 <use images/android9b.png>
 Package pdftex.def Info: images/android9b.png used on input line 554.
 (pdftex.def)             Requested size: 138.16116pt x 230.86334pt.
 
-<images/android10.png, id=1244, 295.89792pt x 242.71811pt>
+<images/android10.png, id=1273, 295.89792pt x 242.71811pt>
 File: images/android10.png Graphic file (type png)
 
 <use images/android10.png>
 Package pdftex.def Info: images/android10.png used on input line 554.
 (pdftex.def)             Requested size: 281.45811pt x 230.86334pt.
 
-<images/android11.png, id=1245, 295.89792pt x 242.71811pt>
+<images/android11.png, id=1274, 295.89792pt x 242.71811pt>
 File: images/android11.png Graphic file (type png)
 
 <use images/android11.png>
@@ -704,14 +770,14 @@ Overfull \hbox (59.61928pt too wide) in paragraph at lines 554--556
  [][][] 
  []
 
-) [40 <./images/android9a.png>] [41 <./images/android9b.png> <./images/android1
+) [41 <./images/android9a.png>] [42 <./images/android9b.png> <./images/android1
 0.png> <./images/android11.png>] (tuprolog-basics.tex
 Chapter 4.
-[42
+[43
 
 
 
-] [43] [44] [45] [46]
+] [44] [45] [46] [47]
 Overfull \hbox (1.96469pt too wide) in paragraph at lines 222--227
 \OT1/cmtt/m/n/10.95 error(\OT1/cmtt/m/it/10.95 Error[]term\OT1/cmtt/m/n/10.95 ,
  \OT1/cmtt/m/it/10.95 Implementation[]defined[]term\OT1/cmtt/m/n/10.95 ) \OT1/c
@@ -741,7 +807,7 @@ Overfull \hbox (1.45009pt too wide) in paragraph at lines 242--244
 10.95 , \OT1/cmtt/m/n/10.95 private[]procedure\OT1/cmr/m/n/10.95 ,
  []
 
-[47]
+[48]
 Overfull \hbox (6.0201pt too wide) in paragraph at lines 245--247
 []\OT1/cmtt/m/n/10.95 representation[]error(\OT1/cmtt/m/it/10.95 Flag\OT1/cmtt/
 m/n/10.95 )\OT1/cmr/m/n/10.95 : when an implementation-defined limit,
@@ -749,13 +815,13 @@ m/n/10.95 )\OT1/cmr/m/n/10.95 : when an implementation-defined limit,
 
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 274.
-[48]
+[49]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 300--301
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
  []
 
-[49]
+[50]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 317--318
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -773,7 +839,7 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 340--341
 rror), evaluation[]error( 
  []
 
-[50]
+[51]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 361--362
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -785,7 +851,7 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 372--373
 e, Culprit), type[]error( 
  []
 
-[51]
+[52]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 388--389
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -815,7 +881,7 @@ Overfull \hbox (4.48047pt too wide) in paragraph at lines 422--423
 OT1/cmtt/m/n/10.95 Predicate \OT1/cmr/m/n/10.95 is not a struc-
  []
 
-[52]
+[53]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 434--435
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -827,13 +893,13 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 446--447
 e, Culprit), type[]error( 
  []
 
-[53]
+[54]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 460--461
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
  []
 
-[54]
+[55]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 496--497
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -851,7 +917,7 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 511--512
 e, Culprit), type[]error( 
  []
 
-[55]
+[56]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 513--514
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(domain[]error(ValidD
 omain, Culprit), domain[] 
@@ -869,7 +935,7 @@ Overfull \hbox (4.938pt too wide) in paragraph at lines 535--536
 )
  []
 
-[56]
+[57]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 546--547
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -887,7 +953,7 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 576--577
 e, Culprit), type[]error( 
  []
 
-[57]
+[58]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 578--579
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(domain[]error(ValidD
 omain, Culprit), domain[] 
@@ -911,9 +977,9 @@ Overfull \hbox (14.24553pt too wide) in paragraph at lines 580--583
  can be mod-i-fied if \OT1/cmtt/m/n/10.95 IsModifiable
  []
 
-[58]) [59] (tuprolog-libraries.tex
+[59]) [60] (tuprolog-libraries.tex
 Chapter 5.
-[60
+[61
 
 
 
@@ -929,19 +995,13 @@ Overfull \hbox (3.04349pt too wide) in paragraph at lines 66--69
 \OT1/cmr/m/n/10.95 ) | ex-tends the
  []
 
-
-Overfull \hbox (5.42632pt too wide) in paragraph at lines 78--81
-\OT1/cmr/m/n/10.95 pro-gram-ming (Chap-ter []7[], or Chap-ter []8[] for its cou
-n-ter-part in .NET). Through-
- []
-
-[61] [62]
+[62] [63]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 178--179
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
  []
 
-[63]
+[64]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 181--182
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(domain[]error(ValidD
 omain, Culprit), domain[] 
@@ -973,7 +1033,7 @@ Overfull \hbox (6.76167pt too wide) in paragraph at lines 210--211
  Number
  []
 
-[64]
+[65]
 Underfull \hbox (badness 10000) in paragraph at lines 236--236
 [][][]\OT1/cmr/m/n/9 SICStus Pro-log, for in-stance, suc-ceeds re-turn-ing a so
 -lu-tion like
@@ -985,7 +1045,7 @@ Underfull \hbox (badness 1748) in paragraph at lines 236--236
 n-ner dots ``hide'' the in-fi-nite
  []
 
-[65]
+[66]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 269--270
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -997,13 +1057,13 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 280--281
 e, Culprit), type[]error( 
  []
 
-[66]
+[67]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 291--292
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
  []
 
-[67] [68] [69]
+[68] [69] [70]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 429--430
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1015,13 +1075,13 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 443--444
 e, Culprit), type[]error( 
  []
 
-[70]
+[71]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 465--466
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
  []
 
-[71]
+[72]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 479--480
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1033,7 +1093,7 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 525--526
 e, Culprit), type[]error( 
  []
 
-[72]
+[73]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 543--544
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1045,7 +1105,7 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 551--552
 e, Culprit), type[]error( 
  []
 
-[73]
+[74]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 559--560
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1058,7 +1118,7 @@ Overfull \hbox (5.2404pt too wide) in paragraph at lines 587--588
  (dif-fer-ent), []\OT1/cmtt/m/n/10.95 > \OT1/cmr/m/n/10.95 (greater),
  []
 
-[74]
+[75]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 595--596
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1068,19 +1128,19 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 606.
 
 Overfull \hbox (3.04698pt too wide) in paragraph at lines 607--607
-[]\OT1/cmtt/m/n/10 Assoc.| 
+[]|\OT1/cmtt/m/n/10 Assoc.| 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[75] [76]
+[76] [77]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 698--699
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
  []
 
-[77
+[78
 
 ]
 Overfull \hbox (16.82338pt too wide) in paragraph at lines 710--711
@@ -1100,7 +1160,7 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 723--724
 e, Culprit), type[]error( 
  []
 
-[78]
+[79]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 740--741
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1108,30 +1168,30 @@ e, Culprit), type[]error(
 
 
 Overfull \hbox (3.04698pt too wide) in paragraph at lines 787--787
-[]\OT1/cmtt/m/n/10 Assoc.| 
+[]|\OT1/cmtt/m/n/10 Assoc.| 
  []
 
-[79]
+[80]
 Underfull \hbox (badness 10000) in paragraph at lines 813--813
-[]\OT1/cmtt/m/n/10 Possible
+[]|\OT1/cmtt/m/n/10 Possible
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 813--813
-[]\OT1/cmtt/m/n/10 Default
+[]|\OT1/cmtt/m/n/10 Default
  []
 
 
 Overfull \hbox (1.2845pt too wide) in paragraph at lines 813--813
-[]\OT1/cmtt/m/n/10 Modifiable| 
+[]|\OT1/cmtt/m/n/10 Modifiable| 
  []
 
 
-Overfull \hbox (0.98027pt too wide) in paragraph at lines 812--825
+Overfull \hbox (2.18025pt too wide) in paragraph at lines 812--825
  [] 
  []
 
-[80]
+[81]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 861--862
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1149,7 +1209,7 @@ Overfull \hbox (0.70819pt too wide) in paragraph at lines 864--865
 5 if \OT1/cmtt/m/n/10.95 StreamName \OT1/cmr/m/n/10.95 is not
  []
 
-[81]
+[82]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 885--886
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1167,7 +1227,7 @@ Overfull \hbox (0.70819pt too wide) in paragraph at lines 888--889
 5 if \OT1/cmtt/m/n/10.95 StreamName \OT1/cmr/m/n/10.95 is not
  []
 
-[82]
+[83]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 909--910
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1185,7 +1245,7 @@ Overfull \hbox (4.78633pt too wide) in paragraph at lines 922--923
 le to read from the in-put stream.
  []
 
-[83]
+[84]
 Overfull \hbox (4.78633pt too wide) in paragraph at lines 931--932
 \OT1/cmtt/m/n/10.95 Culprit, Message)) \OT1/cmr/m/n/10.95 if it was im-pos-si-b
 le to read from the in-put stream.
@@ -1209,13 +1269,13 @@ Overfull \hbox (4.78633pt too wide) in paragraph at lines 956--957
 le to read from the in-put stream.
  []
 
-[84]
+[85]
 Overfull \hbox (4.45175pt too wide) in paragraph at lines 971--972
 \OT1/cmtt/m/n/10.95 Culprit, Message)) \OT1/cmr/m/n/10.95 if it was im-pos-si-b
 le to write on the out-put stream.
  []
 
-[85]
+[86]
 Overfull \hbox (4.45175pt too wide) in paragraph at lines 983--984
 \OT1/cmtt/m/n/10.95 Culprit, Message)) \OT1/cmr/m/n/10.95 if it was im-pos-si-b
 le to write on the out-put stream.
@@ -1239,7 +1299,7 @@ Overfull \hbox (4.938pt too wide) in paragraph at lines 1014--1015
 )
  []
 
-[86]
+[87]
 Overfull \hbox (0.43947pt too wide) in paragraph at lines 1021--1022
 []\OT1/cmr/m/it/10.95 Exception:  \OT1/cmr/m/n/10.95 the pred-i-cate maps onto 
 the above \OT1/cmtt/m/n/10.95 text[]from[]file(File,
@@ -1264,13 +1324,13 @@ Overfull \hbox (1.61023pt too wide) in paragraph at lines 1036--1037
 95 Goal
  []
 
-[87]
+[88]
 Overfull \hbox (0.43947pt too wide) in paragraph at lines 1046--1047
 []\OT1/cmr/m/it/10.95 Exception:  \OT1/cmr/m/n/10.95 the pred-i-cate maps onto 
 the above \OT1/cmtt/m/n/10.95 text[]from[]file(File,
  []
 
-[88]
+[89]
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1112.
 
@@ -1284,7 +1344,7 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 1147--1148
 e, Culprit), type[]error( 
  []
 
-[89] [90]
+[90] [91]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 1156--1157
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1302,7 +1362,7 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 1172--1173
 e, Culprit), type[]error( 
  []
 
-[91]
+[92]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 1180--1181
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1320,7 +1380,7 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 1198--1199
 e, Culprit), type[]error( 
  []
 
-[92]
+[93]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 1224--1225
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1356,7 +1416,7 @@ Overfull \hbox (5.76308pt too wide) in paragraph at lines 1237--1240
 5 look into the queue iden-
  []
 
-[93]
+[94]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 1246--1247
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1392,7 +1452,7 @@ Overfull \hbox (1.13303pt too wide) in paragraph at lines 1270--1271
 1/cmtt/m/n/10.95 QueueOrThreadID \OT1/cmr/m/n/10.95 is nei-ther
  []
 
-[94]
+[95]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 1287--1288
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1404,7 +1464,7 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 1295--1296
 e, Culprit), type[]error( 
  []
 
-[95]
+[96]
 Overfull \hbox (0.68082pt too wide) in paragraph at lines 1303--1304
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error(ValidTyp
 e, Culprit), type[]error( 
@@ -1440,14 +1500,14 @@ Overfull \hbox (0.68082pt too wide) in paragraph at lines 1327--1328
 e, Culprit), type[]error( 
  []
 
-[96] [97] <images/thread-example.png, id=1544, 342.9416pt x 263.17189pt>
+[97] [98] <images/thread-example.png, id=1573, 342.9416pt x 263.17189pt>
 File: images/thread-example.png Graphic file (type png)
 
 <use images/thread-example.png>
 Package pdftex.def Info: images/thread-example.png used on input line 1414.
 (pdftex.def)             Requested size: 341.43306pt x 262.01471pt.
- [98] [99 <./images/thread-example.png>]
-<images/thread-exampleMutex.png, id=1556, 358.62283pt x 202.49236pt>
+ [99] [100 <./images/thread-example.png>]
+<images/thread-exampleMutex.png, id=1585, 358.62283pt x 202.49236pt>
 File: images/thread-exampleMutex.png Graphic file (type png)
 
 <use images/thread-exampleMutex.png>
@@ -1462,7 +1522,7 @@ Overfull \hbox (9.88582pt too wide) in paragraph at lines 1470--1471
 
 LaTeX Warning: Float too large for page by 21.0656pt on input line 1501.
 
-[100] [101 <./images/thread-exampleMutex.png>] [102] [103] [104]
+[101] [102 <./images/thread-exampleMutex.png>] [103] [104] [105]
 Underfull \hbox (badness 10000) in paragraph at lines 1628--1631
 
  []
@@ -1488,28 +1548,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 1644--1645
 
  []
 
-<images/dcg-example.png, id=1590, 355.3275pt x 274.02374pt>
+<images/dcg-example.png, id=1619, 355.3275pt x 274.02374pt>
 File: images/dcg-example.png Graphic file (type png)
 
 <use images/dcg-example.png>
 Package pdftex.def Info: images/dcg-example.png used on input line 1648.
 (pdftex.def)             Requested size: 199.16928pt x 153.59859pt.
- [105] [106 <./images/dcg-example.png>]
-<images/isoiolibrary-table.png, id=1602, 234.27525pt x 335.45325pt>
+ [106] [107 <./images/dcg-example.png>]
+<images/isoiolibrary-table.png, id=1631, 234.27525pt x 335.45325pt>
 File: images/isoiolibrary-table.png Graphic file (type png)
 
 <use images/isoiolibrary-table.png>
 Package pdftex.def Info: images/isoiolibrary-table.png used on input line 1714.
 
 (pdftex.def)             Requested size: 284.52756pt x 407.45059pt.
- [107] [108 <./images/isoiolibrary-table.png>] [109] [110]
+ [108] [109 <./images/isoiolibrary-table.png>] [110] [111]
 Overfull \hbox (11.81377pt too wide) in paragraph at lines 1843--1845
 \OT1/cmr/m/n/10.95 the \OT1/cmtt/m/n/10.95 end[]of[]stream \OT1/cmr/m/n/10.95 o
 r the \OT1/cmtt/m/n/10.95 past[]end[]of[]stream \OT1/cmr/m/n/10.95 value. The z
 ero-argument
  []
 
-[111]
+[112]
 Overfull \hbox (17.92688pt too wide) in paragraph at lines 1872--1873
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(permission[]error, p
 ermission[]error(reposition, 
@@ -1522,7 +1582,7 @@ Overfull \hbox (5.86986pt too wide) in paragraph at lines 1872--1873
 /10.95 prop-erty of this stream
  []
 
-[112] [113] [114]
+[113] [114] [115]
 Overfull \hbox (29.71567pt too wide) in paragraph at lines 1955--1956
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 error(type[]error, type[]e
 rror(in[]character, \OT1/cmtt/m/it/10.95 Character\OT1/cmtt/m/n/10.95 ))
@@ -1559,13 +1619,13 @@ Overfull \hbox (10.9392pt too wide) in paragraph at lines 1982--1984
 r \OT1/cmr/m/n/10.95 and \OT1/cmtt/m/n/10.95 get[]code
  []
 
-[115]
+[116]
 Overfull \hbox (2.50493pt too wide) in paragraph at lines 2001--2002
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmr/m/n/10.95 : the same as above, plus a
 n \OT1/cmtt/m/n/10.95 error(instantiation[]error,
  []
 
-[116]
+[117]
 Overfull \hbox (6.75462pt too wide) in paragraph at lines 2042--2043
 \OT1/cmtt/m/n/10.95 binary[]stream, \OT1/cmtt/m/it/10.95 Stream[]or[]alias\OT1/
 cmtt/m/n/10.95 )) \OT1/cmr/m/n/10.95 if the stream in not a text stream. 
@@ -1603,7 +1663,7 @@ Overfull \hbox (18.03508pt too wide) in paragraph at lines 2057--2063
 .95 Tem-plate: \OT1/cmtt/m/n/10.95 writeq(@Stream[]or[]alias, @Term) 
  []
 
-[117]
+[118]
 Overfull \hbox (23.27744pt too wide) in paragraph at lines 2073--2074
 []\OT1/cmtt/m/it/10.95 string \OT1/cmr/m/n/10.95 where the string fol-low-ing t
 he un-der-score are implementation-
@@ -1617,7 +1677,7 @@ n/10.95 is true, the pro-duced string is quoted;
 
 
 Underfull \hbox (badness 1708) in paragraph at lines 2091--2091
-[]\OT1/cmr/m/n/9 - each term ar-gu-ment, built ap-ply-ing
+[]|\OT1/cmr/m/n/9 - each term ar-gu-ment, built ap-ply-ing
  []
 
 Missing character: There is no ‘ in font cmtt9!
@@ -1625,18 +1685,18 @@ Missing character: There is no ’ in font cmtt9!
 Missing character: There is no ‘ in font cmtt9!
 Missing character: There is no ’ in font cmtt9!
 
-Overfull \hbox (5.43304pt too wide) in paragraph at lines 2083--2104
+Overfull \hbox (6.63303pt too wide) in paragraph at lines 2083--2104
  [][] 
  []
 
-[118] [119]
+[119] [120]
 Overfull \hbox (16.17879pt too wide) in paragraph at lines 2148--2149
 \OT1/cmr/m/n/10.95 Stream prop-er-ties are ex-pressed via the \OT1/cmtt/m/n/10.
 95 stream[]property(\OT1/cmtt/m/it/10.95 Stream\OT1/cmtt/m/n/10.95 , \OT1/cmtt/
 m/it/10.95 Property\OT1/cmtt/m/n/10.95 )
  []
 
-[120] [121] [122]
+[121] [122] [123]
 Underfull \hbox (badness 10000) in paragraph at lines 2244--2245
 
  []
@@ -1668,13 +1728,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 2281--2282
 
  []
 
-[123]
+[124]
 Overfull \hbox (6.67741pt too wide) in paragraph at lines 2323--2325
 \OT1/cmtt/m/n/10.95 tcp[]socket[]client[]open(+Address, -Socket) \OT1/cmr/m/n/1
 0.95 is true iff \OT1/cmtt/m/n/10.95 Address \OT1/cmr/m/n/10.95 rep-
  []
 
-[124]
+[125]
 Overfull \hbox (1.50496pt too wide) in paragraph at lines 2331--2333
 \OT1/cmtt/m/n/10.95 write[]to[]socket(+Socket, +Msg) \OT1/cmr/m/n/10.95 is true
  iff \OT1/cmtt/m/n/10.95 Socket \OT1/cmr/m/n/10.95 rep-re-sents a valid
@@ -1692,19 +1752,19 @@ Overfull \hbox (0.98787pt too wide) in paragraph at lines 2347--2350
 s the asyn-chronous ver-sion
  []
 
-[125]
+[126]
 Overfull \hbox (5.66869pt too wide) in paragraph at lines 2356--2358
 \OT1/cmr/m/n/10.95 is wait-ing for in-com-ing con-nec-tion at that ad-dress, an
 d \OT1/cmtt/m/n/10.95 DatagramSocket
  []
 
-[126]
+[127]
 Overfull \hbox (11.87616pt too wide) in paragraph at lines 2419--2420
 \OT1/cmr/m/n/10.95 some new ab-stract meth-ods, im-ple-mented in the de-rived c
 lasses \OT1/cmtt/m/n/10.95 Client[]Socket
  []
 
-[127]
+[128]
 Overfull \hbox (17.9956pt too wide) in paragraph at lines 2457--2457
 []\OT1/cmtt/m/n/9 public void testTcp_socket_client_open_2() throws PrologExcep
 tion, PrologError {[] 
@@ -1740,7 +1800,7 @@ Overfull \hbox (27.4455pt too wide) in paragraph at lines 2457--2457
 7.0.0.1:4444',Sock),"[] 
  []
 
-) [128] (exceptions.tex
+) [129] (exceptions.tex
 Chapter 6.
 
 Overfull \hbox (4.84718pt too wide) in paragraph at lines 10--11
@@ -1748,7 +1808,7 @@ Overfull \hbox (4.84718pt too wide) in paragraph at lines 10--11
 g stan-dard (ISO/IEC
  []
 
-[129
+[130
 
 
 
@@ -1763,7 +1823,7 @@ Overfull \hbox (6.12175pt too wide) in paragraph at lines 65--67
 cmtt/m/n/10.95 'error'\OT1/cmr/m/n/10.95 , not \OT1/cmtt/m/n/10.95 'error---'
  []
 
-[130]
+[131]
 Overfull \hbox (1.96469pt too wide) in paragraph at lines 75--80
 \OT1/cmtt/m/n/10.95 error(\OT1/cmtt/m/it/10.95 Error[]term\OT1/cmtt/m/n/10.95 ,
  \OT1/cmtt/m/it/10.95 Implementation[]defined[]term\OT1/cmtt/m/n/10.95 ) \OT1/c
@@ -1786,7 +1846,7 @@ Overfull \hbox (1.41974pt too wide) in paragraph at lines 86--90
 e[]sink\OT1/cmr/m/n/10.95 ,
  []
 
-[131]
+[132]
 Overfull \hbox (1.45009pt too wide) in paragraph at lines 95--97
 \OT1/cmtt/m/n/10.95 binary[]stream\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 past
 []end[]of[]stream\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 operator\OT1/cmr/m/n/
@@ -1799,494 +1859,520 @@ Overfull \hbox (6.0201pt too wide) in paragraph at lines 98--100
 m/n/10.95 )\OT1/cmr/m/n/10.95 : when an implementation-defined limit,
  []
 
-[132] [133]) [134] (mpp-in-java.tex
+[133] [134]) [135] (mpp-in-java.tex
 Chapter 7.
-[135
+[136
 
 
 
 ]
-Underfull \hbox (badness 2951) in paragraph at lines 45--45
-[]\OT1/cmr/m/n/10.95 Prolog re-als are mapped
+Underfull \hbox (badness 2951) in paragraph at lines 49--49
+[]|\OT1/cmr/m/n/10.95 Prolog re-als are mapped
  []
 
 
-Underfull \hbox (badness 3503) in paragraph at lines 45--46
+Underfull \hbox (badness 3503) in paragraph at lines 49--50
 \OT1/cmr/m/n/10.95 are mapped onto Pro-log
  []
 
 
-Underfull \hbox (badness 4353) in paragraph at lines 47--48
-[]\OT1/cmr/m/n/10.95 Boolean Java val-ues are
+Underfull \hbox (badness 4353) in paragraph at lines 51--52
+[]|\OT1/cmr/m/n/10.95 Boolean Java val-ues are
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 51--52
-[]\OT1/cmr/m/n/10.95 The Java \OT1/cmtt/m/n/10.95 null \OT1/cmr/m/n/10.95 value
- is
+Underfull \hbox (badness 3471) in paragraph at lines 55--56
+[]|\OT1/cmr/m/n/10.95 The Java \OT1/cmtt/m/n/10.95 null \OT1/cmr/m/n/10.95 valu
+e is
  []
 
 
-Overfull \hbox (4.3917pt too wide) in paragraph at lines 59--61
+Overfull \hbox (4.3917pt too wide) in paragraph at lines 63--65
 \OT1/cmr/m/n/10.95 the [] in-ter-nal rep-re-sen-ta-tion of num-bers does dis-ti
 n-guish \OT1/cmtt/m/n/10.95 Number
  []
 
-[136]
-Overfull \hbox (10.38565pt too wide) in paragraph at lines 99--104
+[137]
+Overfull \hbox (10.38565pt too wide) in paragraph at lines 90--95
 \OT1/cmr/m/n/10.95 path: if the class to be loaded is on a dif-fer-ent path, th
 e \OT1/cmtt/m/n/10.95 set[]classpath/1
  []
 
-[137]
-Overfull \hbox (56.51007pt too wide) in paragraph at lines 138--142
-[]\OT1/cmr/m/n/10.95 Static meth-ods can also be in-voked, spec-i-fy-ing the sp
-e-cial term \OT1/cmtt/m/n/10.95 class(\OT1/cmtt/m/it/10.95 ClassName\OT1/cmtt/m
-/n/10.95 )
- []
-
-[138]
-Overfull \hbox (17.22697pt too wide) in paragraph at lines 152--153
-[]\OT1/cmr/m/n/10.95 The first con-struct sets the pub-lic field \OT1/cmtt/m/it
-/10.95 Field \OT1/cmr/m/n/10.95 to the spec-i-fied \OT1/cmtt/m/it/10.95 GroundT
-erm\OT1/cmr/m/n/10.95 ,
- []
-
-
-Overfull \hbox (78.00919pt too wide) in paragraph at lines 186--187
-[]\OT1/cmr/m/n/10.95 The \OT1/cmtt/m/n/10.95 set[]classpath/1 \OT1/cmr/m/n/10.9
-5 and \OT1/cmtt/m/n/10.95 get[]classpath/1
- []
-
-[139]
-Overfull \hbox (4.0856pt too wide) in paragraph at lines 193--194
+[138] [139] [140]
+Overfull \hbox (4.0856pt too wide) in paragraph at lines 181--182
 \OT1/cmr/m/n/10.95 for \OT1/cmtt/m/n/10.95 foo/bar/\OT1/cmtt/m/it/10.95 classna
 me\OT1/cmtt/m/n/10.95 .class\OT1/cmr/m/n/10.95 , while an en-try like \OT1/cmtt
 /m/n/10.95 'mylib.jar' \OT1/cmr/m/n/10.95 causes
  []
 
-[140] [141] [142] [143]
-Underfull \hbox (badness 10000) in paragraph at lines 348--351
+[141] [142] [143] [144]
+Underfull \hbox (badness 10000) in paragraph at lines 338--341
+
+ []
+
+[145]
+Underfull \hbox (badness 10000) in paragraph at lines 342--343
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 352--353
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 354--355
+Underfull \hbox (badness 10000) in paragraph at lines 346--347
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
-
- []
-
-[144]
-Overfull \hbox (0.89154pt too wide) in paragraph at lines 379--379
-[]\OT1/cmr/bx/n/10 Functionality| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 386--394
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 395--400
-\OT1/cmr/m/n/8 in-stance us-ing the con-struc-
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
+
+ []
+
+[146]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <7> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 390.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 452.
+ [147] [148]
+Overfull \hbox (2.5647pt too wide) in paragraph at lines 521--522
+\OT1/cmr/m/n/10.95 The first maps onto the \OT1/cmtt/m/n/10.95 BiFunction<Integ
+er,Integer,Integer> \OT1/cmr/m/n/10.95 func-tional
+ []
+
+[149]
+
+Package caption Warning: \label without proper \caption on input line 877.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `tab:comparison-of-javalibrary-vs-oolibrary-predicates
+' on page 150 undefined on input line 596.
+
+
+Overfull \hbox (0.89154pt too wide) in paragraph at lines 606--606
+[]|\OT1/cmr/bx/n/10 Functionality| 
  []
 
 
-Underfull \hbox (badness 2698) in paragraph at lines 395--400
+Underfull \hbox (badness 2698) in paragraph at lines 622--626
 \OT1/cmr/m/n/8 tor match-ing the ar-gu-ments in
  []
 
 
-Underfull \hbox (badness 2426) in paragraph at lines 395--400
-\OT1/cmr/m/n/8 new ob-ject (pos-si-bly a system-
+Underfull \hbox (badness 2894) in paragraph at lines 644--652
+[]|\OT1/cmr/m/n/8 Invokes the method \OT1/cmtt/m/it/8 MethodName
  []
 
 
-Underfull \hbox (badness 2894) in paragraph at lines 418--426
-[]\OT1/cmr/m/n/8 Invokes the method \OT1/cmtt/m/it/8 MethodName
- []
-
-
-Underfull \hbox (badness 1158) in paragraph at lines 418--426
+Underfull \hbox (badness 1158) in paragraph at lines 644--652
 \OT1/cmr/m/n/8 on the ob-ject as-so-ci-ated to the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--433
-
+Underfull \hbox (badness 3449) in paragraph at lines 644--652
+\OT1/cmtt/m/it/8 TargetRef \OT1/cmr/m/n/8 term, pos-si-bly pass-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 442--458
-
+Underfull \hbox (badness 1509) in paragraph at lines 644--652
+\OT1/cmr/m/n/8 ing ar-gu-ments \OT1/cmtt/m/it/8 Arg0\OT1/cmr/m/n/8 , \OT1/cmtt/
+m/it/8 Arg1\OT1/cmr/m/n/8 , etc.,
  []
 
 
-Underfull \hbox (badness 1009) in paragraph at lines 459--468
-\OT1/cmr/m/n/8 Note that prim-i-tive val-ues \OT1/cmr/m/it/8 must
+Underfull \hbox (badness 10000) in paragraph at lines 644--652
+\OT1/cmr/m/n/8 and pos-si-bly bind-ing the re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--478
-
+Overfull \hbox (24.71469pt too wide) in paragraph at lines 657--666
+[]  \OT1/cmtt/m/n/8 `java.util.function.BiFunction<Long,Long,Long>', 
  []
 
 
-Overfull \hbox (60.11263pt too wide) in paragraph at lines 376--500
+Overfull \hbox (60.11263pt too wide) in paragraph at lines 603--690
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 139.7494pt on input line 503.
+Overfull \hbox (0.89154pt too wide) in paragraph at lines 705--705
+[]|\OT1/cmr/bx/n/10 Functionality| 
+ []
 
 
-Overfull \hbox (9.64877pt too wide) in paragraph at lines 645--646
+Underfull \hbox (badness 1009) in paragraph at lines 730--739
+\OT1/cmr/m/n/8 Note that prim-i-tive val-ues \OT1/cmr/m/it/8 must
+ []
+
+
+Overfull \hbox (60.11263pt too wide) in paragraph at lines 698--771
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--794
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 795--803
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 842--850
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 842--850
+\OT1/cmtt/m/n/8 java[]object(`java.awt.Point', [1,2],
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 851--859
+
+ []
+
+
+Overfull \hbox (48.11218pt too wide) in paragraph at lines 779--876
+ [] 
+ []
+
+[150] [151] [152] [153]
+Overfull \hbox (9.64877pt too wide) in paragraph at lines 897--898
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 java.lang.reflect.Invocati
 onTargetException(Cause,
  []
 
 
-Overfull \hbox (1.22356pt too wide) in paragraph at lines 647--648
+Overfull \hbox (1.22356pt too wide) in paragraph at lines 899--900
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 java.lang.Exception(Cause,
  Message, StackTrace) \OT1/cmr/m/n/10.95 if
  []
 
 
-Overfull \hbox (1.74661pt too wide) in paragraph at lines 653--655
+Overfull \hbox (1.74661pt too wide) in paragraph at lines 905--907
 \OT1/cmtt/m/n/10.95 destroy[]object(ObjectRef) \OT1/cmr/m/n/10.95 re-moves the 
 bind-ing pos-si-bly es-tab-lished
  []
 
-[145] [146]
-Overfull \hbox (11.56918pt too wide) in paragraph at lines 658--661
-\OT1/cmtt/m/n/10.95 java[]class(SourceText, ClassName, PathList, ObjectRef) \OT
-1/cmr/m/n/10.95 cre-ates
+
+Overfull \hbox (7.85542pt too wide) in paragraph at lines 917--918
+[]\OT1/cmr/m/it/10.95 Template: \OT1/cmtt/m/n/10.95 method[]call(@obj[]id, @met
+hod[]signature, ?ResultRef) 
+ []
+
+[154]
+Overfull \hbox (7.85542pt too wide) in paragraph at lines 934--935
+[]\OT1/cmr/m/it/10.95 Template: \OT1/cmtt/m/n/10.95 returns('<-'(@obj[]id, @met
+hod[]signature), ?@obj[]id) 
  []
 
 
-Overfull \hbox (3.90009pt too wide) in paragraph at lines 666--667
+Overfull \hbox (5.8205pt too wide) in paragraph at lines 944--947
+\OT1/cmtt/m/n/10.95 new[]class(SourceText, ClassName, PathList, ObjectRef) \OT1
+/cmr/m/n/10.95 cre-ates
+ []
+
+
+Overfull \hbox (3.90009pt too wide) in paragraph at lines 952--953
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 java.lang.IOException(Caus
 e, Message, StackTrace)
  []
 
 
-Overfull \hbox (1.22356pt too wide) in paragraph at lines 668--669
+Overfull \hbox (1.22356pt too wide) in paragraph at lines 954--955
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 java.lang.Exception(Cause,
  Message, StackTrace) \OT1/cmr/m/n/10.95 if
  []
 
 
-Overfull \hbox (0.49855pt too wide) in paragraph at lines 671--675
-\OT1/cmtt/m/n/10.95 java[]call(ObjectRef, Method, ResultRef) \OT1/cmr/m/n/10.95
- is the ba-sic method im-
+Overfull \hbox (2.35132pt too wide) in paragraph at lines 962--966
+\OT1/cmr/m/n/10.95 the ar-ray \OT1/cmtt/m/n/10.95 ArrayRef \OT1/cmr/m/n/10.95 t
+o \OT1/cmtt/m/n/10.95 ObjectRef \OT1/cmr/m/n/10.95 (i.e., \OT1/cmtt/m/n/10.95 A
+rrayRef[Index]=ObjectRef\OT1/cmr/m/n/10.95 ).
  []
 
-
-Overfull \hbox (5.4854pt too wide) in paragraph at lines 683--685
-[]\OT1/cmtt/m/n/10.95 ObjectRef <- Method \OT1/cmr/m/n/10.95 calls the Java met
-hod rep-re-sented by the \OT1/cmtt/m/n/10.95 Method
- []
-
-[147]
-Overfull \hbox (4.72415pt too wide) in paragraph at lines 690--692
-[]\OT1/cmtt/m/n/10.95 ObjectRef <- Method returns ResultRef \OT1/cmr/m/n/10.95 
-calls the Java method rep-
- []
-
-
-Overfull \hbox (7.85542pt too wide) in paragraph at lines 695--696
-[]\OT1/cmr/m/it/10.95 Template: \OT1/cmtt/m/n/10.95 returns('<-'(@obj[]id, @met
-hod[]signature), ?@obj[]id) 
- []
-
-[148]
-Overfull \hbox (9.64877pt too wide) in paragraph at lines 725--726
+[155]
+Overfull \hbox (9.64877pt too wide) in paragraph at lines 980--981
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 java.lang.IllegalArgumentE
 xception(Cause, Message,
  []
 
 
-Overfull \hbox (9.64877pt too wide) in paragraph at lines 747--748
+Overfull \hbox (11.17215pt too wide) in paragraph at lines 982--986
+\OT1/cmr/m/n/10.95 the ar-ray \OT1/cmtt/m/n/10.95 ArrayRef \OT1/cmr/m/n/10.95 i
+nto \OT1/cmtt/m/n/10.95 ObjectRef \OT1/cmr/m/n/10.95 (i.e., \OT1/cmtt/m/n/10.95
+ ObjectRef=ArrayRef[Index]\OT1/cmr/m/n/10.95 ).
+ []
+
+
+Overfull \hbox (9.64877pt too wide) in paragraph at lines 1000--1001
 []\OT1/cmr/m/it/10.95 Exception: \OT1/cmtt/m/n/10.95 java.lang.IllegalArgumentE
 xception(Cause, Message,
  []
 
-
-Overfull \hbox (4.21101pt too wide) in paragraph at lines 749--752
-\OT1/cmtt/m/n/10.95 java[]array[]length(ArrayRef, ArrayLength) \OT1/cmr/m/n/10.
-95 is true iff \OT1/cmtt/m/n/10.95 ArrayLength
- []
-
-[149]
-Overfull \hbox (3.04698pt too wide) in paragraph at lines 800--800
-[]\OT1/cmtt/m/n/10 Assoc.| 
+[156]
+Overfull \hbox (3.04698pt too wide) in paragraph at lines 1052--1052
+[]|\OT1/cmtt/m/n/10 Assoc.| 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 826--827
+Underfull \hbox (badness 10000) in paragraph at lines 1078--1079
 
  []
 
-[150]
-Underfull \hbox (badness 10000) in paragraph at lines 829--830
+[157]
+Underfull \hbox (badness 10000) in paragraph at lines 1081--1082
 
  []
 
 
-Overfull \hbox (7.91602pt too wide) in paragraph at lines 857--857
-[]    \OT1/cmtt/m/n/10.95 ?-  java_object('java.rmi.RMISecurityManager', [], Ma
-nager),[] 
+Overfull \hbox (2.16733pt too wide) in paragraph at lines 1109--1109
+[]    \OT1/cmtt/m/n/10.95 ?-  new_object('java.rmi.RMISecurityManager', [], Man
+ager),[] 
  []
 
 
-Overfull \hbox (13.6647pt too wide) in paragraph at lines 857--857
+Overfull \hbox (13.6647pt too wide) in paragraph at lines 1109--1109
 []        \OT1/cmtt/m/n/10.95 class('java.lang.System') <- setSecurityManager(M
 anager),[] 
  []
 
 
-Overfull \hbox (30.91077pt too wide) in paragraph at lines 857--857
+Overfull \hbox (30.91077pt too wide) in paragraph at lines 1109--1109
 []        \OT1/cmtt/m/n/10.95 class('java.rmi.Naming') <- lookup('prolog') retu
 rns Engine,[] 
  []
 
-[151] [152] [153]
-Overfull \hbox (38.99652pt too wide) in paragraph at lines 950--950
+[158]
+Overfull \hbox (38.99652pt too wide) in paragraph at lines 1202--1202
 []        \OT1/cmtt/m/n/10 class('java.lang.Class') <- forName('sun.jdbc.odbc.J
 dbcOdbcDriver'),[] 
  []
 
 
-Overfull \hbox (23.24666pt too wide) in paragraph at lines 950--950
+Overfull \hbox (23.24666pt too wide) in paragraph at lines 1202--1202
 []          \OT1/cmtt/m/n/10 <- getConnection(DBase, Username, Password) return
 s Connection,[] 
  []
 
 
-Overfull \hbox (7.4968pt too wide) in paragraph at lines 950--950
+Overfull \hbox (7.4968pt too wide) in paragraph at lines 1202--1202
 []        \OT1/cmtt/m/n/10 write('[ Database '), write(DBase), write(' connecte
 d ]'), nl.[] 
  []
 
-[154]
-Overfull \hbox (17.9967pt too wide) in paragraph at lines 1012--1012
+
+Overfull \hbox (17.9967pt too wide) in paragraph at lines 1264--1264
 []\OT1/cmtt/m/n/10 get_remote_file(DirName, FileName, FTPHost, FTPUser, FTPPwd,
  Content) :-[] 
  []
 
 
-Overfull \hbox (23.24666pt too wide) in paragraph at lines 1012--1012
-[]    \OT1/cmtt/m/n/10 java_object('com.enterprisedt.net.ftp.FTPClient', [FTPHo
-st], Client),[] 
+Overfull \hbox (17.9967pt too wide) in paragraph at lines 1264--1264
+[]    \OT1/cmtt/m/n/10 new_object('com.enterprisedt.net.ftp.FTPClient', [FTPHos
+t], Client),[] 
  []
 
-[155] [156] [157]
-Overfull \hbox (2.16733pt too wide) in paragraph at lines 1095--1095
+[159] [160] [161] [162] [163]
+Overfull \hbox (2.16733pt too wide) in paragraph at lines 1347--1347
 []       \OT1/cmtt/m/n/10.95 [('java.lang.ClassNotFoundException'(Cause, Messag
 e, _),[] 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1100
+[164]
+Underfull \hbox (badness 10000) in paragraph at lines 1351--1352
 
  []
 
-<images/exceptions1a.png, id=1885, 378.213pt x 283.65974pt>
+<images/exceptions1a.png, id=2044, 378.213pt x 283.65974pt>
 File: images/exceptions1a.png Graphic file (type png)
 
 <use images/exceptions1a.png>
-Package pdftex.def Info: images/exceptions1a.png used on input line 1105.
+Package pdftex.def Info: images/exceptions1a.png used on input line 1357.
 (pdftex.def)             Requested size: 199.16928pt x 149.37805pt.
 
-<images/exceptions1b.png, id=1886, 364.9635pt x 265.59225pt>
+<images/exceptions1b.png, id=2045, 364.9635pt x 265.59225pt>
 File: images/exceptions1b.png Graphic file (type png)
 
 <use images/exceptions1b.png>
-Package pdftex.def Info: images/exceptions1b.png used on input line 1106.
+Package pdftex.def Info: images/exceptions1b.png used on input line 1358.
 (pdftex.def)             Requested size: 199.16928pt x 144.94144pt.
 
-Overfull \hbox (13.6647pt too wide) in paragraph at lines 1118--1118
+Overfull \hbox (13.6647pt too wide) in paragraph at lines 1370--1370
 []      \OT1/cmtt/m/n/10.95 [('java.lang.Exception'(Cause, Message, _), true)],
  true)).[] 
  []
 
-<images/exceptions2.png, id=1888, 380.01974pt x 271.0125pt>
+[165 <./images/exceptions1a.png> <./images/exceptions1b.png>]
+<images/exceptions2.png, id=2052, 380.01974pt x 271.0125pt>
 File: images/exceptions2.png Graphic file (type png)
 
 <use images/exceptions2.png>
-Package pdftex.def Info: images/exceptions2.png used on input line 1126.
+Package pdftex.def Info: images/exceptions2.png used on input line 1378.
 (pdftex.def)             Requested size: 199.16928pt x 142.03557pt.
 
-Overfull \hbox (19.41339pt too wide) in paragraph at lines 1137--1137
+Overfull \hbox (19.41339pt too wide) in paragraph at lines 1389--1389
 []      \OT1/cmtt/m/n/10.95 [('java.lang.Exception'(Cause, Message, _), false)]
 , true)).[] 
  []
 
-[158] [159 <./images/exceptions1a.png> <./images/exceptions1b.png>]
-Overfull \hbox (59.6542pt too wide) in paragraph at lines 1169--1169
+[166 <./images/exceptions2.png>]
+Overfull \hbox (59.6542pt too wide) in paragraph at lines 1421--1421
 []      \OT1/cmtt/m/n/10.95 ('java.lang.ClassNotFoundException'(Cause, Message,
  _), Y is 3+5)],[] 
  []
 
-[160 <./images/exceptions2.png>]
-Overfull \hbox (2.15146pt too wide) in paragraph at lines 1225--1226
+[167]
+Overfull \hbox (2.15146pt too wide) in paragraph at lines 1477--1478
 \OT1/cmr/m/n/10.95 uni-fi-ca-tion, term pars-ing, term copy-ing, etc.; its sub-
 classes dis-tin-guish among
  []
 
-[161]
-Overfull \hbox (21.88582pt too wide) in paragraph at lines 1260--1285
+[168]
+Overfull \hbox (21.88582pt too wide) in paragraph at lines 1512--1537
  [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[162]
-Overfull \hbox (24.2234pt too wide) in paragraph at lines 1302--1303
+[169]
+Overfull \hbox (24.2234pt too wide) in paragraph at lines 1554--1555
 []\OT1/cmr/m/n/10.95 the \OT1/cmtt/m/n/10.95 getTerm \OT1/cmr/m/n/10.95 method 
 re-turns the re-ferred term, fol-low-ing vari-able bindings---
  []
 
-[163]
-Overfull \hbox (50.33858pt too wide) in paragraph at lines 1317--1345
+[170]
+Overfull \hbox (50.33858pt too wide) in paragraph at lines 1569--1597
  [] 
  []
 
 
-Overfull \hbox (0.46483pt too wide) in paragraph at lines 1359--1362
+Overfull \hbox (0.46483pt too wide) in paragraph at lines 1611--1614
 []\OT1/cmr/m/n/10.95 The user the-ory can ei-ther be set from scratch via the \
 OT1/cmtt/m/n/10.95 setTheory \OT1/cmr/m/n/10.95 method,
  []
 
 
-Overfull \hbox (1.86597pt too wide) in paragraph at lines 1378--1380
+Overfull \hbox (1.86597pt too wide) in paragraph at lines 1630--1632
 \OT1/cmr/m/n/10.95 spec-ify prop-er-ties of clauses and en-gines (\OT1/cmtt/m/n
 /10.95 solve/1\OT1/cmr/m/n/10.95 , \OT1/cmtt/m/n/10.95 initialization/1\OT1/cmr
 /m/n/10.95 ,
  []
 
-[164] [165]
-Overfull \hbox (7.4968pt too wide) in paragraph at lines 1436--1436
+[171] [172]
+Overfull \hbox (7.4968pt too wide) in paragraph at lines 1688--1688
 []                \OT1/cmtt/m/n/10 System.out.println("solution: " + info.getSo
 lution() +[] 
  []
 
 
-Overfull \hbox (12.74675pt too wide) in paragraph at lines 1504--1504
+Overfull \hbox (12.74675pt too wide) in paragraph at lines 1756--1756
 []  \OT1/cmtt/m/n/10 public static void main(String[] args) throws InvalidTheor
 yException,[] 
  []
 
 
-Overfull \hbox (38.99652pt too wide) in paragraph at lines 1504--1504
+Overfull \hbox (38.99652pt too wide) in paragraph at lines 1756--1756
 []      \OT1/cmtt/m/n/10 MalformedGoalException, NoSolutionException, NoMoreSol
 utionException {[] 
  []
 
 
-Overfull \hbox (2.24684pt too wide) in paragraph at lines 1504--1504
+Overfull \hbox (2.24684pt too wide) in paragraph at lines 1756--1756
 []      \OT1/cmtt/m/n/10 Struct clause1 = new Struct(":-", new Struct("p",new V
 ar("X")),[] 
  []
 
 
-Overfull \hbox (7.4968pt too wide) in paragraph at lines 1504--1504
+Overfull \hbox (7.4968pt too wide) in paragraph at lines 1756--1756
 []                                        \OT1/cmtt/m/n/10 new Struct("q",new V
 ar("X")));[] 
  []
 
 
-Overfull \hbox (28.49661pt too wide) in paragraph at lines 1504--1504
+Overfull \hbox (28.49661pt too wide) in paragraph at lines 1756--1756
 []      \OT1/cmtt/m/n/10 System.out.println(clause1 + " is a clause? " + clause
 1.isClause());[] 
  []
 
 
-Overfull \hbox (28.49661pt too wide) in paragraph at lines 1504--1504
+Overfull \hbox (28.49661pt too wide) in paragraph at lines 1756--1756
 []      \OT1/cmtt/m/n/10 System.out.println(clause2 + " is a clause? " + clause
 2.isClause());[] 
  []
 
 
-Overfull \hbox (17.9967pt too wide) in paragraph at lines 1504--1504
+Overfull \hbox (17.9967pt too wide) in paragraph at lines 1756--1756
 []                                     \OT1/cmtt/m/n/10 new Struct(clause2, new
  Struct()));[] 
  []
 
 
-Overfull \hbox (38.99652pt too wide) in paragraph at lines 1504--1504
+Overfull \hbox (38.99652pt too wide) in paragraph at lines 1756--1756
 []      \OT1/cmtt/m/n/10 System.out.println(clauseList + " is a list? " + claus
 eList.isList());[] 
  []
 
-[166] [167] [168]
-Overfull \hbox (50.33858pt too wide) in paragraph at lines 1526--1575
+[173] [174] [175]
+Overfull \hbox (50.33858pt too wide) in paragraph at lines 1778--1827
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 47.99974pt on input line 1578.
+LaTeX Warning: Float too large for page by 47.99974pt on input line 1830.
 
-<images/console-interpreter.png, id=1960, 555.87675pt x 213.79875pt>
+<images/console-interpreter.png, id=2119, 555.87675pt x 213.79875pt>
 File: images/console-interpreter.png Graphic file (type png)
 
 <use images/console-interpreter.png>
-Package pdftex.def Info: images/console-interpreter.png used on input line 1589
+Package pdftex.def Info: images/console-interpreter.png used on input line 1841
 .
 (pdftex.def)             Requested size: 341.43306pt x 131.31743pt.
- [169] [170] [171 <./images/console-interpreter.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1651
+ [176] [177] [178 <./images/console-interpreter.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1902--1903
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1653--1654
+Underfull \hbox (badness 10000) in paragraph at lines 1905--1906
 
  []
 
 
-Overfull \hbox (8.8763pt too wide) in paragraph at lines 1655--1658
+Overfull \hbox (8.8763pt too wide) in paragraph at lines 1907--1909
 \OT1/cmr/m/n/10.95 where \OT1/cmtt/m/it/10.95 ObjectRef \OT1/cmr/m/n/10.95 is a
  ground term (oth-er-wise an \OT1/cmtt/m/n/10.95 InvalidObjectIdException
  []
 
 
-Overfull \hbox (2.83977pt too wide) in paragraph at lines 1666--1667
+Overfull \hbox (2.83977pt too wide) in paragraph at lines 1917--1918
 \OT1/cmr/m/n/10.95 To bind \OT1/cmtt/m/n/10.95 System.out \OT1/cmr/m/n/10.95 pe
 r-ma-nently to \OT1/cmtt/m/n/10.95 stdout \OT1/cmr/m/n/10.95 (within the scope 
 of the []
  []
 
-[172]
-Overfull \hbox (7.4968pt too wide) in paragraph at lines 1702--1702
-[]    \OT1/cmtt/m/n/10 Library lib = engine.getLibrary("alice.tuprolog.lib.Java
-Library");[] 
- []
-
-[173]
-Overfull \hbox (0.95204pt too wide) in paragraph at lines 1718--1720
+[179] [180]
+Overfull \hbox (0.95204pt too wide) in paragraph at lines 1969--1971
 []\OT1/cmr/m/n/10.95 Yet, this fea-ture can be added in a non-intrusive way, th
 anks to []'s
  []
 
-<images/onOutput.png, id=1994, 416.757pt x 118.041pt>
+<images/onOutput.png, id=2154, 416.757pt x 118.041pt>
 File: images/onOutput.png Graphic file (type png)
 
 <use images/onOutput.png>
-Package pdftex.def Info: images/onOutput.png used on input line 1760.
+Package pdftex.def Info: images/onOutput.png used on input line 2011.
 (pdftex.def)             Requested size: 341.43306pt x 96.70778pt.
 
 
@@ -2294,156 +2380,156 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 1766.
+(hyperref)                removing `\\' on input line 2017.
 
-[174] [175 <./images/onOutput.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1790--1791
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1794--1797
+[181] [182 <./images/onOutput.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 2041--2042
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1798--1799
+Underfull \hbox (badness 10000) in paragraph at lines 2045--2048
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1802--1805
+Underfull \hbox (badness 10000) in paragraph at lines 2049--2050
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1806--1807
+Underfull \hbox (badness 10000) in paragraph at lines 2053--2056
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1810--1813
+Underfull \hbox (badness 10000) in paragraph at lines 2057--2058
 
  []
 
-[176] [177] <images/TestLibrary3.png, id=2032, 359.54324pt x 320.99925pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 2061--2064
+
+ []
+
+[183] [184] <images/TestLibrary3.png, id=2191, 359.54324pt x 320.99925pt>
 File: images/TestLibrary3.png Graphic file (type png)
 
 <use images/TestLibrary3.png>
-Package pdftex.def Info: images/TestLibrary3.png used on input line 1936.
+Package pdftex.def Info: images/TestLibrary3.png used on input line 2187.
 (pdftex.def)             Requested size: 284.52756pt x 254.03235pt.
 
-<images/TestLibrary4.png, id=2033, 555.87675pt x 202.95825pt>
+<images/TestLibrary4.png, id=2192, 555.87675pt x 202.95825pt>
 File: images/TestLibrary4.png Graphic file (type png)
 
 <use images/TestLibrary4.png>
-Package pdftex.def Info: images/TestLibrary4.png used on input line 1937.
+Package pdftex.def Info: images/TestLibrary4.png used on input line 2188.
 (pdftex.def)             Requested size: 341.43306pt x 124.65909pt.
 
-<images/TestLibrary1.png, id=2036, 237.88875pt x 181.27725pt>
+<images/TestLibrary1.png, id=2195, 237.88875pt x 181.27725pt>
 File: images/TestLibrary1.png Graphic file (type png)
 
 <use images/TestLibrary1.png>
-Package pdftex.def Info: images/TestLibrary1.png used on input line 1944.
+Package pdftex.def Info: images/TestLibrary1.png used on input line 2195.
 (pdftex.def)             Requested size: 256.0748pt x 195.14584pt.
 
-<images/TestLibrary2.png, id=2037, 237.88875pt x 196.93575pt>
+<images/TestLibrary2.png, id=2196, 237.88875pt x 196.93575pt>
 File: images/TestLibrary2.png Graphic file (type png)
 
 <use images/TestLibrary2.png>
-Package pdftex.def Info: images/TestLibrary2.png used on input line 1945.
+Package pdftex.def Info: images/TestLibrary2.png used on input line 2196.
 (pdftex.def)             Requested size: 256.0748pt x 212.00227pt.
 
-<images/TestLibrary5.png, id=2040, 555.87675pt x 202.95825pt>
+<images/TestLibrary5.png, id=2199, 555.87675pt x 202.95825pt>
 File: images/TestLibrary5.png Graphic file (type png)
 
 <use images/TestLibrary5.png>
-Package pdftex.def Info: images/TestLibrary5.png used on input line 1952.
+Package pdftex.def Info: images/TestLibrary5.png used on input line 2203.
 (pdftex.def)             Requested size: 341.43306pt x 124.65909pt.
- [178] [179] [180 <./images/TestLibrary3.png> <./images/TestLibrary4.png>] [181
- <./images/TestLibrary1.png> <./images/TestLibrary2.png>] [182 <./images/TestLi
-brary5.png>] [183]
-Underfull \hbox (badness 10000) in paragraph at lines 2045--2047
+ [185] [186] [187 <./images/TestLibrary3.png> <./images/TestLibrary4.png>] [188
+ <./images/TestLibrary1.png> <./images/TestLibrary2.png>] [189 <./images/TestLi
+brary5.png>] [190]
+Underfull \hbox (badness 10000) in paragraph at lines 2296--2298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2048--2049
+Underfull \hbox (badness 10000) in paragraph at lines 2299--2300
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2050--2051
+Underfull \hbox (badness 10000) in paragraph at lines 2301--2302
 
  []
 
-[184]
-Overfull \hbox (36.1122pt too wide) in paragraph at lines 2082--2103
+[191]
+Overfull \hbox (36.1122pt too wide) in paragraph at lines 2333--2354
  [] 
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 2110.
+(hyperref)                removing `\\' on input line 2361.
 
-[185] [186]
-Overfull \hbox (4.02542pt too wide) in paragraph at lines 2159--2160
+[192] [193]
+Overfull \hbox (4.02542pt too wide) in paragraph at lines 2410--2411
 \OT1/cmr/m/n/10.95 where, clearly, \OT1/cmtt/m/n/10.95 Term<Int> \OT1/cmr/m/n/1
 0.95 is used for a term con-tain-ing an \OT1/cmtt/m/n/10.95 Int\OT1/cmr/m/n/10.
 95 , \OT1/cmtt/m/n/10.95 Term<Double>
  []
 
-[187]
-Overfull \hbox (2.16733pt too wide) in paragraph at lines 2204--2204
+[194]
+Overfull \hbox (2.16733pt too wide) in paragraph at lines 2455--2455
 []   \OT1/cmtt/m/n/10.95 extends Compound<Cons<H,R>> implements Iterable<Term<?
 >>{..}[] 
  []
 
 
-Overfull \hbox (2.16733pt too wide) in paragraph at lines 2204--2204
+Overfull \hbox (2.16733pt too wide) in paragraph at lines 2455--2455
 [] \OT1/cmtt/m/n/10.95 public class Compound2<X1 extends Term<?>, X2 extends Te
 rm<?>>[] 
  []
 
 
-Overfull \hbox (2.16733pt too wide) in paragraph at lines 2204--2204
+Overfull \hbox (2.16733pt too wide) in paragraph at lines 2455--2455
 [] \OT1/cmtt/m/n/10.95 public class Compound3<X1 extends Term<?>, X2 extends Te
 rm<?>,[] 
  []
 
-[188]
+[195]
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 2233
+(Font)              Font shape `OT1/cmss/m/sl' tried instead on input line 2484
 .
 
 
-LaTeX Warning: Float too large for page by 7.09976pt on input line 2273.
+LaTeX Warning: Float too large for page by 7.09976pt on input line 2524.
 
 
-LaTeX Warning: Float too large for page by 5.89975pt on input line 2326.
+LaTeX Warning: Float too large for page by 5.89975pt on input line 2577.
 
 
-Overfull \hbox (3.48793pt too wide) in paragraph at lines 2356--2356
+Overfull \hbox (3.48793pt too wide) in paragraph at lines 2607--2607
 []    \OT1/cmtt/m/n/9 for (Object solution : pjp.path(new Atom("a"), new Var<At
 om>("X"))) {[] 
  []
 
 
-Overfull \hbox (12.93782pt too wide) in paragraph at lines 2424--2424
+Overfull \hbox (12.93782pt too wide) in paragraph at lines 2675--2675
 []    \OT1/cmtt/m/n/9 System.out.println(ep.expr(exp1, List.NIL)); // 12+(3*4) 
   expression ?[] 
  []
 
 
-Overfull \hbox (12.93782pt too wide) in paragraph at lines 2424--2424
+Overfull \hbox (12.93782pt too wide) in paragraph at lines 2675--2675
 []    \OT1/cmtt/m/n/9 System.out.println(ep.expr(exp2, List.NIL)); // (12+(3*4)
 ) expression ?[] 
  []
 
-) [189] [190] [191] [192] [193] (mpp-in-dotnet.tex
+) [196] [197] [198] [199] [200] (mpp-in-dotnet.tex
 Chapter 8.
-[194
+[201
 
 
 
@@ -2458,26 +2544,26 @@ Overfull \hbox (12.58774pt too wide) in paragraph at lines 31--34
 /10.95 ) 
  []
 
-[195] [196] [197]
+[202] [203] [204]
 Overfull \hbox (3.46658pt too wide) in paragraph at lines 136--137
 []\OT1/cmr/m/n/10.95 each \OT1/cmr/m/it/10.95 statically-generated \OT1/cmr/m/n
 /10.95 as-sem-bly is as-so-ci-ated to its own class loader---
  []
 
-[198]
+[205]
 Overfull \hbox (7.03554pt too wide) in paragraph at lines 152--154
 []\OT1/cmr/m/n/10.95 using the spe-cial \OT1/cmtt/m/n/10.95 ikvm.runtime.AppDom
 ainAssemblyClassLoader \OT1/cmr/m/n/10.95 class
  []
 
-[199] [200]
+[206] [207]
 Overfull \hbox (3.66216pt too wide) in paragraph at lines 216--217
 \OT1/cmr/m/n/10.95 which ob-vi-ously re-quire the [] Java ver-sion) that ex-plo
 it []
  []
 
-[201]
-Overfull \hbox (1.5989pt too wide) in paragraph at lines 229--237
+[208]
+Overfull \hbox (3.99887pt too wide) in paragraph at lines 229--237
 [][] 
  []
 
@@ -2487,11 +2573,7 @@ Overfull \hbox (8.46503pt too wide) in paragraph at lines 240--242
 e older [].NET
  []
 
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 252.
-
-[202]
+[209]
 Overfull \hbox (0.89299pt too wide) in paragraph at lines 260--261
 []\OT1/cmr/m/n/10.95 the code re-or-gan-i-sa-tion per-formed behind-the-scenes 
 by the .NET com-
@@ -2503,260 +2585,261 @@ Overfull \hbox (4.50836pt too wide) in paragraph at lines 273--276
 means of its \OT1/cmtt/m/it/10.95 AssemblyQualifiedName\OT1/cmr/m/n/10.95 ---
  []
 
-[203] <images/dotnet-oolibrary.png, id=2213, 269.30801pt x 265.89906pt>
+[210] <images/dotnet-oolibrary.png, id=2373, 269.30801pt x 265.89906pt>
 File: images/dotnet-oolibrary.png Graphic file (type png)
 
 <use images/dotnet-oolibrary.png>
-Package pdftex.def Info: images/dotnet-oolibrary.png used on input line 281.
+Package pdftex.def Info: images/dotnet-oolibrary.png used on input line 282.
 (pdftex.def)             Requested size: 227.62204pt x 224.74939pt.
 
-Overfull \hbox (9.71498pt too wide) in paragraph at lines 289--290
+Overfull \hbox (9.71498pt too wide) in paragraph at lines 290--291
 \OT1/cmr/m/n/10.95 Language con-ven-tions are [] means to sep-a-rate and em-bed
  the language-
  []
 
 
-Overfull \hbox (2.24684pt too wide) in paragraph at lines 308--308
+Overfull \hbox (2.24684pt too wide) in paragraph at lines 309--309
 []  \OT1/cmtt/m/n/10 public virtual string GetPropertyGetterName(string oldProp
 Name) ...[] 
  []
 
 
-Overfull \hbox (2.24684pt too wide) in paragraph at lines 308--308
+Overfull \hbox (2.24684pt too wide) in paragraph at lines 309--309
 []  \OT1/cmtt/m/n/10 public virtual string GetPropertySetterName(string oldProp
 Name) ...[] 
  []
 
-[204 <./images/dotnet-oolibrary.png>] [205]
-Overfull \hbox (17.9967pt too wide) in paragraph at lines 352--352
+[211 <./images/dotnet-oolibrary.png>] [212]
+Overfull \hbox (17.9967pt too wide) in paragraph at lines 353--353
 []                           \OT1/cmtt/m/n/10 Term constructorName, Term args, 
 Term objRef)[] 
  []
 
 
-Overfull \hbox (7.4968pt too wide) in paragraph at lines 352--352
+Overfull \hbox (7.4968pt too wide) in paragraph at lines 353--353
 []  \OT1/cmtt/m/n/10 public bool method_call_3(Term objRef, Term methodName, Te
 rm resRef)[] 
  []
 
-
-Overfull \hbox (23.16661pt too wide) in paragraph at lines 365--366
+[213]
+Overfull \hbox (23.16661pt too wide) in paragraph at lines 366--367
 \OT1/cmr/m/n/10.95 The \OT1/cmtt/m/n/10.95 dload[]convention[]3 \OT1/cmr/m/n/10
 .95 method is the di-rec-tive ver-sion of \OT1/cmtt/m/n/10.95 load[]convention[
 ]3\OT1/cmr/m/n/10.95 ),
  []
 
-[206]
-Overfull \hbox (33.74657pt too wide) in paragraph at lines 410--410
+
+Overfull \hbox (33.74657pt too wide) in paragraph at lines 411--411
 []  \OT1/cmtt/m/n/10 class('VBStudent.Student,VBStudent') <- get_StaticProperty
  returns Value,[] 
  []
 
 
-Overfull \hbox (2.24684pt too wide) in paragraph at lines 410--410
+Overfull \hbox (2.24684pt too wide) in paragraph at lines 411--411
 []  \OT1/cmtt/m/n/10 class('VBStudent.Student, VBStudent').staticProperty <- ge
 t(Value),[] 
  []
 
-
-<images/dotnet-oolibrary-using-StringTokenizer.png, id=2243, 352.31625pt x 263.
+[214] [215]
+<images/dotnet-oolibrary-using-StringTokenizer.png, id=2414, 352.31625pt x 263.
 18324pt>
 File: images/dotnet-oolibrary-using-StringTokenizer.png Graphic file (type png)
 
  <use images/dotnet-oolibrary-using-StringTokenizer.png>
 Package pdftex.def Info: images/dotnet-oolibrary-using-StringTokenizer.png used
- on input line 457.
+ on input line 458.
 (pdftex.def)             Requested size: 312.9803pt x 233.79863pt.
 
-<images/dotnet-oolibrary-dynamiccompilation.png, id=2244, 352.31625pt x 317.385
+<images/dotnet-oolibrary-dynamiccompilation.png, id=2415, 352.31625pt x 317.385
 76pt>
 File: images/dotnet-oolibrary-dynamiccompilation.png Graphic file (type png)
  <use images/dotnet-oolibrary-dynamiccompilation.png>
 Package pdftex.def Info: images/dotnet-oolibrary-dynamiccompilation.png used on
- input line 458.
+ input line 459.
 (pdftex.def)             Requested size: 312.9803pt x 281.9494pt.
 
 
-LaTeX Warning: Float too large for page by 26.1478pt on input line 460.
+LaTeX Warning: Float too large for page by 26.1478pt on input line 461.
 
-[207] [208] [209] [210 <./images/dotnet-oolibrary-using-StringTokenizer.png> <.
-/images/dotnet-oolibrary-dynamiccompilation.png>]
-Overfull \hbox (3.82077pt too wide) in paragraph at lines 486--486
+
+Overfull \hbox (3.82077pt too wide) in paragraph at lines 487--487
 [] \OT1/cmtt/m/n/9 new_object(CSConv, 'CStudent.Student, CStudent',[122345,'joh
 n',''], StudCS),[] 
  []
 
 
-Overfull \hbox (3.82077pt too wide) in paragraph at lines 486--486
+Overfull \hbox (3.82077pt too wide) in paragraph at lines 487--487
 [] \OT1/cmtt/m/n/9 new_object(FSConv, 'FStudent.Student, FStudent',[525718,'Mar
 y',''], StudFs),[] 
  []
 
 
-Overfull \hbox (13.27066pt too wide) in paragraph at lines 486--486
+Overfull \hbox (13.27066pt too wide) in paragraph at lines 487--487
 [] \OT1/cmtt/m/n/9 new_object(VBConv, 'VBStudent.Student, VBStudent',[987650,'J
 ean',''], StudVB),[] 
  []
 
-[211] <images/dotnet-exceptions.png, id=2278, 1208.81802pt x 463.61887pt>
+[216] [217 <./images/dotnet-oolibrary-using-StringTokenizer.png> <./images/dotn
+et-oolibrary-dynamiccompilation.png>] [218]
+<images/dotnet-exceptions.png, id=2437, 1208.81802pt x 463.61887pt>
 File: images/dotnet-exceptions.png Graphic file (type png)
 
 <use images/dotnet-exceptions.png>
-Package pdftex.def Info: images/dotnet-exceptions.png used on input line 525.
+Package pdftex.def Info: images/dotnet-exceptions.png used on input line 538.
 (pdftex.def)             Requested size: 341.43306pt x 130.94427pt.
- [212 <./images/dotnet-exceptions.png>]
-<images/dotnet-visualstudio1.png, id=2293, 350.5095pt x 235.47975pt>
+ [219 <./images/dotnet-exceptions.png>]
+<images/dotnet-visualstudio1.png, id=2452, 350.5095pt x 235.47975pt>
 File: images/dotnet-visualstudio1.png Graphic file (type png)
 
 <use images/dotnet-visualstudio1.png>
-Package pdftex.def Info: images/dotnet-visualstudio1.png used on input line 554
+Package pdftex.def Info: images/dotnet-visualstudio1.png used on input line 567
 .
 (pdftex.def)             Requested size: 341.43306pt x 229.38522pt.
 
-<images/dotnet-visualstudio2.png, id=2294, 326.4195pt x 246.9225pt>
+<images/dotnet-visualstudio2.png, id=2453, 326.4195pt x 246.9225pt>
 File: images/dotnet-visualstudio2.png Graphic file (type png)
 
 <use images/dotnet-visualstudio2.png>
-Package pdftex.def Info: images/dotnet-visualstudio2.png used on input line 555
+Package pdftex.def Info: images/dotnet-visualstudio2.png used on input line 568
 .
 (pdftex.def)             Requested size: 341.43306pt x 258.28911pt.
 
-<images/dotnet-visualstudio3.png, id=2295, 331.83975pt x 114.4275pt>
+<images/dotnet-visualstudio3.png, id=2454, 331.83975pt x 114.4275pt>
 File: images/dotnet-visualstudio3.png Graphic file (type png)
 
 <use images/dotnet-visualstudio3.png>
-Package pdftex.def Info: images/dotnet-visualstudio3.png used on input line 561
+Package pdftex.def Info: images/dotnet-visualstudio3.png used on input line 574
 .
 (pdftex.def)             Requested size: 341.43306pt x 117.74464pt.
 
-<images/dotnet-visualstudio5.png, id=2296, 336.65775pt x 113.82526pt>
+<images/dotnet-visualstudio5.png, id=2455, 336.65775pt x 113.82526pt>
 File: images/dotnet-visualstudio5.png Graphic file (type png)
 
 <use images/dotnet-visualstudio5.png>
-Package pdftex.def Info: images/dotnet-visualstudio5.png used on input line 562
+Package pdftex.def Info: images/dotnet-visualstudio5.png used on input line 575
 .
 (pdftex.def)             Requested size: 341.43306pt x 115.43848pt.
 
-<images/dotnet-visualstudio4.png, id=2297, 365.56575pt x 456.5055pt>
+<images/dotnet-visualstudio4.png, id=2456, 365.56575pt x 456.5055pt>
 File: images/dotnet-visualstudio4.png Graphic file (type png)
 
 <use images/dotnet-visualstudio4.png>
-Package pdftex.def Info: images/dotnet-visualstudio4.png used on input line 568
+Package pdftex.def Info: images/dotnet-visualstudio4.png used on input line 581
 .
 (pdftex.def)             Requested size: 341.43306pt x 426.37074pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 574.
+(hyperref)                removing `\\' on input line 587.
 
 
-Overfull \hbox (1.07375pt too wide) in paragraph at lines 580--585
+Overfull \hbox (1.07375pt too wide) in paragraph at lines 593--598
 []\OT1/cmr/m/n/10.95 The ap-proach is the ba-si-cally same pre-sented in Sec-ti
 on []7.3[] (same method
  []
 
-[213] [214 <./images/dotnet-visualstudio1.png> <./images/dotnet-visualstudio2.p
-ng>] [215 <./images/dotnet-visualstudio3.png> <./images/dotnet-visualstudio5.pn
-g>] [216 <./images/dotnet-visualstudio4.png>]
-<images/dotnet-testlibrary1.png, id=2330, 350.5095pt x 251.13824pt>
+[220] [221 <./images/dotnet-visualstudio1.png> <./images/dotnet-visualstudio2.p
+ng>] [222 <./images/dotnet-visualstudio3.png> <./images/dotnet-visualstudio5.pn
+g>] [223 <./images/dotnet-visualstudio4.png>]
+<images/dotnet-testlibrary1.png, id=2489, 350.5095pt x 251.13824pt>
 File: images/dotnet-testlibrary1.png Graphic file (type png)
 
 <use images/dotnet-testlibrary1.png>
-Package pdftex.def Info: images/dotnet-testlibrary1.png used on input line 590.
+Package pdftex.def Info: images/dotnet-testlibrary1.png used on input line 603.
 
 (pdftex.def)             Requested size: 227.62204pt x 163.0923pt.
 
-<images/dotnet-testlibrary2.png, id=2331, 237.88875pt x 191.5155pt>
+<images/dotnet-testlibrary2.png, id=2490, 237.88875pt x 191.5155pt>
 File: images/dotnet-testlibrary2.png Graphic file (type png)
 
 <use images/dotnet-testlibrary2.png>
-Package pdftex.def Info: images/dotnet-testlibrary2.png used on input line 591.
+Package pdftex.def Info: images/dotnet-testlibrary2.png used on input line 604.
 
 (pdftex.def)             Requested size: 227.62204pt x 183.25955pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 608.
+(hyperref)                removing `\\' on input line 621.
 
-[217] [218 <./images/dotnet-testlibrary1.png> <./images/dotnet-testlibrary2.png
->] [219] [220]
-<images/dotnet-codegen1.png, id=2362, 404.30292pt x 357.25925pt>
+[224] [225 <./images/dotnet-testlibrary1.png> <./images/dotnet-testlibrary2.png
+>] [226] [227]
+<images/dotnet-codegen1.png, id=2521, 404.30292pt x 357.25925pt>
 File: images/dotnet-codegen1.png Graphic file (type png)
 
 <use images/dotnet-codegen1.png>
-Package pdftex.def Info: images/dotnet-codegen1.png used on input line 654.
+Package pdftex.def Info: images/dotnet-codegen1.png used on input line 667.
 (pdftex.def)             Requested size: 284.52756pt x 251.43169pt.
 
-<images/dotnet-codegen2.png, id=2363, 402.93935pt x 277.48953pt>
+<images/dotnet-codegen2.png, id=2522, 402.93935pt x 277.48953pt>
 File: images/dotnet-codegen2.png Graphic file (type png)
 
 <use images/dotnet-codegen2.png>
-Package pdftex.def Info: images/dotnet-codegen2.png used on input line 655.
+Package pdftex.def Info: images/dotnet-codegen2.png used on input line 668.
 (pdftex.def)             Requested size: 284.52756pt x 195.94347pt.
- [221] [222 <./images/dotnet-codegen1.png> <./images/dotnet-codegen2.png>]
-<images/dotnet-pipolo1.png, id=2376, 253.54726pt x 152.36925pt>
+ [228] [229 <./images/dotnet-codegen1.png> <./images/dotnet-codegen2.png>]
+<images/dotnet-pipolo1.png, id=2535, 253.54726pt x 152.36925pt>
 File: images/dotnet-pipolo1.png Graphic file (type png)
 
 <use images/dotnet-pipolo1.png>
-Package pdftex.def Info: images/dotnet-pipolo1.png used on input line 711.
+Package pdftex.def Info: images/dotnet-pipolo1.png used on input line 724.
 (pdftex.def)             Requested size: 199.16928pt x 119.69614pt.
 
-Overfull \hbox (2.8994pt too wide) in paragraph at lines 715--720
+Overfull \hbox (2.8994pt too wide) in paragraph at lines 728--733
 \OT1/cmr/m/n/10.95 method that re-turn an in-stance of \OT1/cmtt/m/n/10.95 MyLi
 st\OT1/cmr/m/n/10.95 , while class \OT1/cmtt/m/n/10.95 B \OT1/cmr/m/n/10.95 pro
 -vides a \OT1/cmtt/m/n/10.95 PrintList
  []
 
-[223 <./images/dotnet-pipolo1.png>]
-<images/dotnet-pipolo5.png, id=2386, 289.68225pt x 83.1105pt>
+[230 <./images/dotnet-pipolo1.png>]
+<images/dotnet-pipolo5.png, id=2545, 289.68225pt x 83.1105pt>
 File: images/dotnet-pipolo5.png Graphic file (type png)
 
 <use images/dotnet-pipolo5.png>
-Package pdftex.def Info: images/dotnet-pipolo5.png used on input line 747.
+Package pdftex.def Info: images/dotnet-pipolo5.png used on input line 760.
 (pdftex.def)             Requested size: 398.33858pt x 114.2931pt.
 
-Overfull \hbox (38.33858pt too wide) in paragraph at lines 747--748
+Overfull \hbox (38.33858pt too wide) in paragraph at lines 760--761
  [][] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/dotnet-pipolo2.png, id=2389, 189.1065pt x 116.8365pt>
+<images/dotnet-pipolo2.png, id=2548, 189.1065pt x 116.8365pt>
 File: images/dotnet-pipolo2.png Graphic file (type png)
 
 <use images/dotnet-pipolo2.png>
-Package pdftex.def Info: images/dotnet-pipolo2.png used on input line 754.
+Package pdftex.def Info: images/dotnet-pipolo2.png used on input line 767.
 (pdftex.def)             Requested size: 256.0748pt x 158.22163pt.
 
-<images/dotnet-pipolo3.png, id=2390, 289.08pt x 238.491pt>
+<images/dotnet-pipolo3.png, id=2549, 289.08pt x 238.491pt>
 File: images/dotnet-pipolo3.png Graphic file (type png)
 
 <use images/dotnet-pipolo3.png>
-Package pdftex.def Info: images/dotnet-pipolo3.png used on input line 760.
+Package pdftex.def Info: images/dotnet-pipolo3.png used on input line 773.
 (pdftex.def)             Requested size: 369.88582pt x 305.1728pt.
 
-<images/dotnet-pipolo4.png, id=2391, 289.08pt x 183.68625pt>
+<images/dotnet-pipolo4.png, id=2550, 289.08pt x 183.68625pt>
 File: images/dotnet-pipolo4.png Graphic file (type png)
 
 <use images/dotnet-pipolo4.png>
-Package pdftex.def Info: images/dotnet-pipolo4.png used on input line 761.
+Package pdftex.def Info: images/dotnet-pipolo4.png used on input line 774.
 (pdftex.def)             Requested size: 369.88582pt x 235.0447pt.
 
-Overfull \hbox (9.88582pt too wide) in paragraph at lines 760--762
+Overfull \hbox (9.88582pt too wide) in paragraph at lines 773--775
  [][] 
  []
 
 
-Overfull \hbox (9.88582pt too wide) in paragraph at lines 760--762
+Overfull \hbox (9.88582pt too wide) in paragraph at lines 773--775
  [] 
  []
 
 
-LaTeX Warning: Float too large for page by 23.41725pt on input line 763.
+LaTeX Warning: Float too large for page by 23.41725pt on input line 776.
 
-[224]) [225 <./images/dotnet-pipolo5.png>] [226 <./images/dotnet-pipolo2.png>]
-[227 <./images/dotnet-pipolo3.png> <./images/dotnet-pipolo4.png>]
+[231]) [232 <./images/dotnet-pipolo5.png>] [233 <./images/dotnet-pipolo2.png>]
+[234 <./images/dotnet-pipolo3.png> <./images/dotnet-pipolo4.png>]
 (mpp-in-android.tex
 Chapter 9.
 
@@ -2765,18 +2848,18 @@ Overfull \hbox (3.60127pt too wide) in paragraph at lines 29--31
 ths, too, al-low-ing ``dexed''
  []
 
-[228
+[235
 
 
 
-] <images/android12.png, id=2424, 145.22179pt x 242.03632pt>
+] <images/android12.png, id=2583, 145.22179pt x 242.03632pt>
 File: images/android12.png Graphic file (type png)
 
 <use images/android12.png>
 Package pdftex.def Info: images/android12.png used on input line 36.
 (pdftex.def)             Requested size: 120.45204pt x 200.75073pt.
 
-<images/android13.png, id=2425, 298.62509pt x 242.71811pt>
+<images/android13.png, id=2584, 298.62509pt x 242.71811pt>
 File: images/android13.png Graphic file (type png)
 
 <use images/android13.png>
@@ -2787,16 +2870,16 @@ Overfull \hbox (9.88747pt too wide) in paragraph at lines 36--37
  [][] [] 
  []
 
-) [229 <./images/android12.png> <./images/android13.png>] (version-history.tex
+) [236 <./images/android12.png> <./images/android13.png>] (version-history.tex
 Chapter 10.
 
 Overfull \hbox (3.07501pt too wide) in paragraph at lines 11--11
-[]\OT1/cmr/m/n/10 tuprolog.jar| 
+[]|\OT1/cmr/m/n/10 tuprolog.jar| 
  []
 
 
 Underfull \hbox (badness 7796) in paragraph at lines 16--17
-[]\OT1/cmr/m/n/10 indexing (+20% per-for-mance), refac-tor-ing
+[]|\OT1/cmr/m/n/10 indexing (+20% per-for-mance), refac-tor-ing
  []
 
 
@@ -2806,7 +2889,7 @@ OT1/cmr/m/n/10 ,
  []
 
 
-Overfull \hbox (35.74216pt too wide) in paragraph at lines 9--28
+Overfull \hbox (38.14212pt too wide) in paragraph at lines 9--28
  []| [] 
  []
 
@@ -2825,7 +2908,7 @@ Overfull \hbox (15.55211pt too wide) in paragraph at lines 46--47
 m/n/10.95 method to \OT1/cmtt/m/n/10.95 alice.tuprolog.SolveInfo
  []
 
-[230
+[237
 
 
 
@@ -2835,7 +2918,7 @@ Overfull \hbox (1.76622pt too wide) in paragraph at lines 77--78
  Benini) [Source-
  []
 
-[231]
+[238]
 Overfull \hbox (8.0113pt too wide) in paragraph at lines 89--90
 []\OT1/cmr/m/n/10.95 Removed al-ice.tuprolog.StructKey, since hash codes are st
 ored in \OT1/cmtt/m/n/10.95 String
@@ -2848,7 +2931,7 @@ Overfull \hbox (6.49599pt too wide) in paragraph at lines 103--104
 Forge bug 1622783] 
  []
 
-[232]
+[239]
 Overfull \hbox (7.60364pt too wide) in paragraph at lines 115--116
 []\OT1/cmr/m/n/10.95 No more \OT1/cmtt/m/n/10.95 NullPointerException \OT1/cmr/
 m/n/10.95 in \OT1/cmtt/m/n/10.95 SpyEvent#toString\OT1/cmr/m/n/10.95 . (Alex Be
@@ -2861,7 +2944,7 @@ Overfull \hbox (8.47191pt too wide) in paragraph at lines 140--141
 castelli, Nathan
  []
 
-[233]
+[240]
 Overfull \hbox (27.25241pt too wide) in paragraph at lines 154--155
 []\OT1/cmr/m/n/10.95 Removed \OT1/cmtt/m/n/10.95 '$asserta'/1 \OT1/cmr/m/n/10.9
 5 and \OT1/cmtt/m/n/10.95 '$assertz'/1\OT1/cmr/m/n/10.95 . Use \OT1/cmtt/m/n/10
@@ -2875,25 +2958,25 @@ Overfull \hbox (24.70729pt too wide) in paragraph at lines 158--159
 erm#isNumber\OT1/cmr/m/n/10.95 : use \OT1/cmtt/m/n/10.95 instanceof
  []
 
-[234] [235] [236] [237] [238]
+[241] [242] [243] [244] [245]
 Overfull \hbox (10.65788pt too wide) in paragraph at lines 306--308
 \OT1/cmr/m/n/10.95 Version 2.7, re-leased on April 29, 2013, em-beds the re-fac
 tored multi-threading-
  []
 
-[239] [240] [241]
+[246] [247] [248]
 Overfull \hbox (13.53226pt too wide) in paragraph at lines 372--373
 []\OT1/cmr/m/n/10.95 Performance gain in 2.3.1: Michael Gat-tavec-chia, Paolo C
 on-tessi, Lorenzo
  []
 
-[242]
+[249]
 Overfull \hbox (0.77252pt too wide) in paragraph at lines 380--381
 []\OT1/cmr/m/n/10.95 New class load-ing mech-a-nism and reg-is-ter/1 pred-i-cat
 e in 2.6.x: Michele
  []
 
-[243]) [244] [245] (tuprolog-guide.bbl
+[250]) [251] [252] (tuprolog-guide.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 8--11
 []\OT1/cmr/m/n/10.95 Tests of con-for-mance to the pro-log iso stan-dard.
  []
@@ -2904,21 +2987,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--11
  []
 
 Missing character: There is no Ð in font cmr10!
-[246
+[253
 
 
 ])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
- [247]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
+ [254]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
  (tuprolog-guide.aux (what-is-tuprolog.aux)
 (installing-tuprolog.aux) (getting-started.aux) (tuprolog-basics.aux)
 (tuprolog-libraries.aux) (exceptions.aux) (mpp-in-java.aux) (mpp-in-dotnet.aux)
 (mpp-in-android.aux) (version-history.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
 Package rerunfilecheck Info: File `tuprolog-guide.out' has not changed.
-(rerunfilecheck)             Checksum: 8A377277968290E83AC209CE5DEFDF28;14485.
+(rerunfilecheck)             Checksum: D12C1DC559D6B012FD3E4B35E01A4B7E;14929.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2929,16 +3012,16 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
  ) 
 Here is how much of TeX's memory you used:
- 7961 strings out of 493698
- 126521 string characters out of 3141971
- 224674 words of memory out of 3000000
- 10479 multiletter control sequences out of 15000+200000
- 17992 words of font info for 63 fonts, out of 3000000 for 9000
+ 10271 strings out of 493698
+ 158941 string characters out of 3141971
+ 302956 words of memory out of 3000000
+ 12647 multiletter control sequences out of 15000+200000
+ 18160 words of font info for 64 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 36i,11n,38p,971b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,48p,971b,1313s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/P
@@ -2964,9 +3047,9 @@ ublic/amsfonts/cm/cmti9.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
 /amsfonts/cm/cmtt8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/am
 sfonts/cm/cmtt9.pfb>
-Output written on tuprolog-guide.pdf (248 pages, 5158938 bytes).
+Output written on tuprolog-guide.pdf (255 pages, 5205763 bytes).
 PDF statistics:
- 2731 PDF objects out of 2984 (max. 8388607)
- 617 named destinations out of 1000 (max. 500000)
- 1780 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2913 PDF objects out of 2984 (max. 8388607)
+ 721 named destinations out of 1000 (max. 500000)
+ 1820 words of extra memory for PDF output out of 10000 (max. 10000000)
 

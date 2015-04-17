@@ -207,11 +207,11 @@ Despite some (minor) performance issues (the IKVM-generated \tuprolog{} version 
 \label{ssec:dotnet-highligths}
 %--------------------------------------------
 
-\tuprolog{}.NET 2.5 builds on top of the winning idea of version 2.2 (language conventions for multi-language interoperability with Prolog), but goes farther by exploiting the value-added brought by the IKVM approach: the chance to use \textit{even Java} as if it were directly available on the .NET platform.
+From version 2.5, \tuprolog{}.NET builds on top of the winning idea of version 2.2 (language conventions for multi-language interoperability with Prolog), but goes farther by exploiting the value-added brought by the IKVM approach: the chance to use \textit{even Java} as if it were directly available on the .NET platform.
 %
 This extra value spreads into several directions:
 \begin{itemize}
-  \item .NET objects can be accessed, in addition to Java objects, via \textit{OOLibrary} -- the renovated version of JavaLibrary -- from \tuprolog{};
+  \item .NET objects can be accessed, in addition to Java objects, via .NET-specific \textit{OOLibrary} -- a specialisation of the Java version of OOLibrary -- from \tuprolog{};
 
   \item .NET applications can be developed (instead of Java applications, which obviously require the \tuprolog{} Java version) that exploit \tuprolog{} as a third-party library, with the only difference that a \texttt{dll} assembly is to be referenced by the (Visual Studio) project, instead of a JAR archive;
 
@@ -249,9 +249,9 @@ Conversely, the execution of .NET code (the implementation language selected is 
 \label{sec:dotnet-oolibrary}
 %-----------------------------------------------------------------------
 
-\subsubsection{Motivation}
+\subsection{Motivation}
 
-Since \tuprolog{}.NET is automatically generated from the Java sources via IKVM, OOLibrary (formerly known as JavaLibrary) is also available for free; however, since this library was designed for Java, it inherently supports Java concepts and constructs, but is obviously unaware of the features that are specific to .NET languages, such as properties, delegates, etc.
+Since \tuprolog{}.NET is automatically generated from the Java sources via IKVM, the ``Java based'' OOLibrary (formerly known as JavaLibrary) is also available for free; however, since this library was designed for Java, it inherently supports Java concepts and constructs, but is obviously unaware of the features that are specific to .NET languages, such as properties, delegates, etc.
 %
 So, while .NET objects could be loaded and exploited via OOLibrary ``as is'' (thanks to the extended semantics of \texttt{Class.forName} discussed in Section \ref{ssec:ikvm-class-loading}), their support would be imperfect, for three main reasons:
 \begin{itemize}
@@ -263,18 +263,19 @@ So, while .NET objects could be loaded and exploited via OOLibrary ``as is'' (th
 \noindent These aspects are put well in evidence by the example below, which refers to a class \texttt{Student} (written in C\#) defining a ``standard'' student with some ``obvious'' properties:
 
 \begin{verbatim}
-    java_object('CStudent.Student, CStudent',
+    new_object('CStudent.Student, CStudent',
                 [123456,'John','Smith'], Obj),
     Obj <- 'PrintStudent' returns Value,
     Obj <- 'get_Name' returns Value,
     Obj <- 'set_Name'('Albert').
 \end{verbatim}
 
-\noindent As the first line shows, a \texttt{Student} instance can be created via \texttt{java\_object/3} \textit{as if it were a Java class}, but only by means of its \texttt{\textit{AssemblyQualifiedName}}---possibly specifying also its version, culture and public key.
+\noindent As the first line shows, a \texttt{Student} instance can be created via \texttt{new\_object/3} \textit{as if it were a Java class}, but only by means of its \texttt{\textit{AssemblyQualifiedName}}---possibly specifying also its version, culture and public key.
 Moreover, the method name must be quoted, since the .NET conventions require the first letter to be capitalized.
 Last but not least, access to properties -- that the translated OOLibrary does not know  as such -- must be mediated by the get/set methods added by the .NET compiler, with a loss both of expressiveness (the \texttt{Obj.Property} notation is lost) and of transparency (the compiler transformations must be known to bypass the problem).
 
-This is why the direct use of OOLibrary is \textit{deprecated} (actually, disabled) in \tuprolog{}.NET, which provides a better alternative: \textit{OOLibrary}. This new library is therefore loaded by default in place of its Java counterpart. As shown in Figure \ref{fig:dotnet-oolibrary}, to be compared with Figure \ref{fig:gui-library-manager} on page \pageref{fig:gui-library-manager}, the Library Manager dialog here lists the .NET version of OOLibrary, instead of the Java version, as its first item.
+This is why \tuprolog{}.NET defines its own \textit{OOLibrary}, which specialises the ``Java'' one and is therefore loaded by default in place of its Java counterpart. 
+As shown in Figure \ref{fig:dotnet-oolibrary}, to be compared with Figure \ref{fig:gui-library-manager} on page \pageref{fig:gui-library-manager}, the Library Manager dialog here lists the .NET version of OOLibrary, instead of the Java version, as its first item.
 
 \begin{figure}
 \centering
@@ -284,7 +285,7 @@ This is why the direct use of OOLibrary is \textit{deprecated} (actually, disabl
 
 The .NET version of OOLibrary extends the underlying Java version by enabling \tuprolog{}.NET to interact with both Java and .NET software components. In principle, any .NET language can be supported, although the current distribution includes the support only for the most widely used .NET languages (C\#, F\# and VB.NET), other than Java itself; however, the support for other .NET languages can be easily added, by defining further \textit{language conventions}.
 
-\subsubsection{Language Conventions}
+\subsection{Language Conventions}
 
 Language conventions are \tuprolog{} means to separate and embed the language-specific aspects from the library core: originally introduced in \tuprolog{}.NET 2.2 (see Section \ref{ssec:dotnet-tuprolog2.2} above), they work as a bridge between the language-specific naming issues and the underlying Java-based machinery.
 
@@ -327,7 +328,7 @@ Currently, four conventions are included in the distribution:
 
 \noindent Since conventions and OOLibrary are part of \tuprolog{}.NET only, they are both implemented in C\#, to avoid unnecessary intermediate conversions.
 
-\subsubsection{OOLibrary: predicates}
+\subsection{.NET-specific OOLibrary Predicates}
 
 OOLibrary puts together the easy of use and immediateness of the Java version of OOLibrary with the convention-based inspiration of the former \textit{CLILibrary} (found in version 2.2): Table \ref{tab:dotnet-oolibrary-interface} lists its predicates.
 %
@@ -365,7 +366,7 @@ For instance, if the target object is written in C\#, OOLibrary:
 \noindent The \texttt{dload\_convention\_3} method is the directive version of \texttt{load\_convention\_3}), the difference being in the lifetime of the loaded convention: the directive loads a convention for the whole life of the current \tuprolog{} engine, while the standard version loads it for the duration of the current query only.
 
 %-------------------------------------
-\subsection{Examples}
+\subsubsection{Convention Examples}
 \label{sec:dotnet-oolibrary-examples}
 %-------------------------------------
 
@@ -494,6 +495,18 @@ Interoperability between .NET and Java classes becomes a problem, instead, when 
 The typical workaround to this problem is to transform the problematic data in suitable Prolog strings that constitute a valid \tuprolog{} representation of a value of a Prolog type (and viceversa), thus exploiting \tuprolog{} as a mediator (both as a component and as a language) to overcome the incommunicability.
 %
 This issue is covered more in detail in Section \ref{sec:dotnet-putting-together} below.
+
+%-------------------------------------
+\subsection{Lambda expressions in .NET}
+\label{ssec:dotnet-oolibrary-lambdas}
+%-------------------------------------
+
+Perhaps surprisingly, the complex machinery behind the lambda expression handling in the Java-based OOLibrary is perfectly translated by IKVM, and works seamlessly in such a different host environment as Microsoft .NET.
+
+However, the precise semantics of the lambda operator \texttt{'<-'} in such a multi-language environment -- which includes both any .NET language \textit{and Java} -- needs to be pointed out.
+From this viewpoint, it must be kept in mind that, since \tuprolog{}.NET derives from the Java version via IKVM translation,  \textit{the lambda operator \texttt{'<-'} maintains the Java 8 semantics even in this environment}--- which means, among the other things, to live with Java 8 functional interfaces as target types.
+
+Of course, we are well aware that this is might sound a little awkward to .NET programmers, who are used to lambda constructs based delegates as target types: hopefully, a .NET-specific lambda treatment will be added some time in the future.
 
 %-------------------------------------
 \subsection{Handling .NET Exceptions}
